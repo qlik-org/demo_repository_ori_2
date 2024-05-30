@@ -4,7 +4,7 @@
     "id": "${time_management_demo}",
     "name": "Time_Management_DEMO",
     "type": "DATA_PIPELINE",
-    "description": "TIme management pipeline",
+    "description": "TIme management pipeline for reporting",
     "schemaPrefix": "",
     "lakehouseType": "SNOWFLAKE",
     "originalLakehouseType": "SNOWFLAKE",

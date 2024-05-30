@@ -2,8 +2,8 @@
   "fullLoadOnly": true,
   "storageAppSettings": {
     "artifactsLocation": {
-      "internalSchema": "time_data_storage__internal",
-      "dataAssetSchema": "time_data_storage",
+      "internalSchema": "time_management_storage__internal",
+      "dataAssetSchema": "time_management_storage",
       "database": "${storage}"
     },
     "artifactsInfo": {
