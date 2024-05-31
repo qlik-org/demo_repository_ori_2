@@ -1,0 +1,26 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$TIME_SUBMISSION_time_events",
+        "schema": "TIME_SUBMISSION",
+        "database": "CONNECT_VERSIONCONTROL",
+        "name": "TIME_EVENTS",
+        "projectId": "${time_mgmt_demo}",
+        "dataAppId": "time_mgmt-pdzo"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$registered_data$TIME_SUBMISSION_user_info",
+        "schema": "TIME_SUBMISSION",
+        "database": "CONNECT_VERSIONCONTROL",
+        "name": "USER_INFO",
+        "projectId": "${time_mgmt_demo}",
+        "dataAppId": "time_mgmt-pdzo"
+      }
+    ]
+  }
+}

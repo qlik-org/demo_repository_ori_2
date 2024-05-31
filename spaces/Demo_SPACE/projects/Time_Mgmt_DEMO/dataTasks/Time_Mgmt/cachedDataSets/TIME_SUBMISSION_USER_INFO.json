@@ -1,0 +1,13 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "USER_INFO",
+    "dbSchema": "TIME_SUBMISSION",
+    "dbName": "CONNECT_VERSIONCONTROL",
+    "secureQri": ""
+  },
+  "id": "$registered_data$TIME_SUBMISSION_user_info",
+  "name": "TIME_SUBMISSION_USER_INFO",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "user_info",
+      "name": "USER_INFO",
+      "projectId": "${time_mgmt_demo}",
+      "dataAppId": "time_mgmt-pdzo"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "user_info-pdzs",
+  "name": "USER_INFO",
+  "description": "",
+  "version": "1"
+}

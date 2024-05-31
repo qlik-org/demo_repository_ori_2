@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "time_events",
+      "name": "TIME_EVENTS",
+      "projectId": "${time_mgmt_demo}",
+      "dataAppId": "time_mgmt-pdzo"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "time_events-pdzr",
+  "name": "TIME_EVENTS",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "TIME_EVENTS",
+    "dbSchema": "TIME_SUBMISSION",
+    "dbName": "CONNECT_VERSIONCONTROL",
+    "secureQri": ""
+  },
+  "id": "$registered_data$TIME_SUBMISSION_time_events",
+  "name": "TIME_SUBMISSION_TIME_EVENTS",
+  "description": "",
+  "version": "1"
+}
