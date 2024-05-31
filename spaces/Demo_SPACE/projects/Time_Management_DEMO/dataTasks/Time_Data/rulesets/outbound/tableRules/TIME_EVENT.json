@@ -26,7 +26,7 @@
         "addedColumnId": "814f8b40-a325-4b15-b010-0e7695b2743b"
       },
       {
-        "action": "ADD",
+        "action": "DROP",
         "columnName": "LAST_UPDATE",
         "newDataType": {
           "type": "STRING",
@@ -39,6 +39,21 @@
         },
         "nullable": true,
         "addedColumnId": "122587d8-72ab-4e7a-9419-38b7451514ff"
+      },
+      {
+        "action": "ADD",
+        "columnName": "LAST_UPDATED_ON",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "",
+          "alias": []
+        },
+        "nullable": true,
+        "addedColumnId": "7a8befda-83e5-48c2-9d1e-e08350609de7"
       }
     ]
   },
