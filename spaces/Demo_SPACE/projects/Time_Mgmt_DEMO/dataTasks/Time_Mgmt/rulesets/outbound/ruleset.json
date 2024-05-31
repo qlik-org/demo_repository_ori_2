@@ -1,0 +1,10 @@
+{
+  "tableRules": [
+    "time_events-pdzt"
+  ],
+  "enabled": true,
+  "id": "outbound",
+  "name": "outbound",
+  "description": "",
+  "version": "1"
+}
