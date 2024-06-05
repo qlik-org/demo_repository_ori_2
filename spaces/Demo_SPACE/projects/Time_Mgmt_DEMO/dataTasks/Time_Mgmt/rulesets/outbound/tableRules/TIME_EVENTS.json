@@ -11,7 +11,7 @@
   "transformedTableLocal": {
     "transformedColumnsLocal": [
       {
-        "action": "ADD",
+        "action": "DROP",
         "columnName": "LAST_UPDATED",
         "newDataType": {
           "type": "STRING",
@@ -24,6 +24,21 @@
         },
         "nullable": true,
         "addedColumnId": "72bb264f-61b1-40f6-be41-df2be48902b0"
+      },
+      {
+        "action": "ADD",
+        "columnName": "LAST_UPDATED_",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "",
+          "alias": []
+        },
+        "nullable": true,
+        "addedColumnId": "1f3ee557-7b29-433c-89a8-38b392b185ed"
       }
     ]
   },
