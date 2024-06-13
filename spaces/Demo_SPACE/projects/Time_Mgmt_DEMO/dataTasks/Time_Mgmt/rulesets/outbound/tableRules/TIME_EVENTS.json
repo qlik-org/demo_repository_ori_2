@@ -39,6 +39,21 @@
         },
         "nullable": true,
         "addedColumnId": "1f3ee557-7b29-433c-89a8-38b392b185ed"
+      },
+      {
+        "action": "ADD",
+        "columnName": "LAST_UPDATED_ON",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "",
+          "alias": []
+        },
+        "nullable": true,
+        "addedColumnId": "5d9b7449-be9c-4345-9f86-fa21ba3a4102"
       }
     ]
   },
