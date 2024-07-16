@@ -1,0 +1,13 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${sf_northwind_test}",
+        "dataAppId": "onboarding_d_storage-91rn"
+      }
+    ]
+  }
+}

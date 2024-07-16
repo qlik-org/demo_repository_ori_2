@@ -1,0 +1,25 @@
+{
+  "dataEntitiesSelection": {
+    "sourceConnectionId": "${onboarding_d_landing-91rm.connection}",
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_categories",
+        "schema": "dbo",
+        "name": "Categories",
+        "projectId": "${sf_northwind_test}",
+        "dataAppId": "onboarding_d_landing-91rm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_customers",
+        "schema": "dbo",
+        "name": "Customers",
+        "projectId": "${sf_northwind_test}",
+        "dataAppId": "onboarding_d_landing-91rm"
+      }
+    ]
+  }
+}
