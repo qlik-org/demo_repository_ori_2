@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "EMPLOYEES",
+    "dbSchema": "HR",
+    "secureQri": ""
+  },
+  "id": "$replicate$HR_employees",
+  "name": "HR_EMPLOYEES",
+  "description": "",
+  "version": "1"
+}

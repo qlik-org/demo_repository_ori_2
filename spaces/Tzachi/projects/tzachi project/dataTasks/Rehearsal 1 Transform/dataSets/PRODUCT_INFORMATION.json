@@ -1,0 +1,15 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "product_information-w8qv",
+      "name": "PRODUCT_INFORMATION",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_storage-w8qo"
+    }
+  ],
+  "id": "product_information-hblw",
+  "name": "PRODUCT_INFORMATION",
+  "description": "",
+  "version": "1"
+}

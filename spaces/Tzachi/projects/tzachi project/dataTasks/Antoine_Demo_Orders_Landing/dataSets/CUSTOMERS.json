@@ -1,0 +1,17 @@
+{
+  "type": "LANDING",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$OE_customers",
+      "schema": "OE",
+      "name": "CUSTOMERS",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_landing-w8qn"
+    }
+  ],
+  "id": "customers",
+  "name": "CUSTOMERS",
+  "description": "",
+  "version": "1"
+}

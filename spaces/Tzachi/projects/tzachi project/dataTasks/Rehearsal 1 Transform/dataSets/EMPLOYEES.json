@@ -1,0 +1,15 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "employees-mqs4",
+      "name": "EMPLOYEES",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_hr_storage-mqs2"
+    }
+  ],
+  "id": "employees-w9ms",
+  "name": "EMPLOYEES",
+  "description": "",
+  "version": "1"
+}

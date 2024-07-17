@@ -1,0 +1,32 @@
+{
+  "type": "DATAFLOW",
+  "inputDataEntities": [
+    {
+      "entityId": "product_information-w8qv",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_storage-w8qo"
+    },
+    {
+      "entityId": "inventories-w8qr",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_storage-w8qo"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "dataflowEntitySettings": {
+    "dataflowId": "fdbed2c3-78b3-465c-b02c-ccbac85269ba",
+    "targetId": "50aed5a8-275b-4bd7-994f-2e8f47add09d",
+    "dataflowTargetState": "VALID"
+  },
+  "id": "low_stock_products-rp6p",
+  "name": "LOW_STOCK_PRODUCTS",
+  "description": "",
+  "version": "1"
+}

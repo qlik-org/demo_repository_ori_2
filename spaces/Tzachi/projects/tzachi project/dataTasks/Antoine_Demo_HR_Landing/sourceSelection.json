@@ -1,0 +1,17 @@
+{
+  "dataEntitiesSelection": {
+    "sourceConnectionId": "${antoine_demo_hr_landing-mqs1.connection}",
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$HR_employees",
+        "schema": "HR",
+        "name": "EMPLOYEES",
+        "projectId": "${tzachi_project}",
+        "dataAppId": "antoine_demo_hr_landing-mqs1"
+      }
+    ]
+  }
+}

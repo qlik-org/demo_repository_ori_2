@@ -1,0 +1,66 @@
+{
+  "project": {
+    "space": "Tzachi",
+    "id": "${tzachi_project}",
+    "name": "tzachi project",
+    "type": "DATA_PIPELINE",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "SNOWFLAKE",
+    "originalLakehouseType": "SNOWFLAKE",
+    "storageConnection": {
+      "type": "reptgt_qdisnowflake",
+      "space": "automation",
+      "name": "systest-snowflake-1",
+      "id": "559cec59-a3fe-4ff3-be9d-5cc4b3c5627f"
+    }
+  },
+  "appSourceConnections": {
+    "${antoine_demo_hr_landing-mqs1.connection}": "automation.sde-mssql_source-NORTHWIND-1",
+    "${antoine_demo_orders_landing-w8qn.connection}": "automation.sde-mssql_source-NORTHWIND-1"
+  },
+  "sourceConnections": {
+    "automation.sde-mssql_source-NORTHWIND-1": {
+      "type": "repsrc_mssql",
+      "space": "automation",
+      "name": "sde-mssql_source-NORTHWIND-1",
+      "id": "86046622-6ea1-4596-b1a4-995dbf8fb871"
+    }
+  },
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "AAA_TZACHI2",
+    "storage": "AAA_TZACHI2",
+    "transform": "AAA_TZACHI2",
+    "datamart": "AAA_TZACHI2",
+    "registeredData": "AAA_TZACHI2",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "LOAD_WH",
+    "storage": "DIS",
+    "transform": "DIS",
+    "datamart": "DIS",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": [
+    {
+      "appId": "antoine_demo_hr_landing-mqs1",
+      "mappings": [
+        {
+          "from": {
+            "schema": "HR"
+          },
+          "to": {
+            "schema": "HR"
+          }
+        }
+      ]
+    },
+    {
+      "appId": "antoine_demo_orders_landing-w8qn",
+      "mappings": []
+    }
+  ]
+}

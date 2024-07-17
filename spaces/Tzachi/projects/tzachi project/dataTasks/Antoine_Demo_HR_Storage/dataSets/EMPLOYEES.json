@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "employees",
+      "name": "EMPLOYEES",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_hr_landing-mqs1"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "employees-mqs4",
+  "name": "EMPLOYEES",
+  "description": "",
+  "version": "1"
+}

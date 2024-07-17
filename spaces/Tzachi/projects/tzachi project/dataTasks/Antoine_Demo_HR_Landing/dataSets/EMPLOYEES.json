@@ -1,0 +1,17 @@
+{
+  "type": "LANDING",
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$HR_employees",
+      "schema": "HR",
+      "name": "EMPLOYEES",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_hr_landing-mqs1"
+    }
+  ],
+  "id": "employees",
+  "name": "EMPLOYEES",
+  "description": "",
+  "version": "1"
+}

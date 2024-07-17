@@ -1,0 +1,10 @@
+{
+  "globalRules": [
+    "cust_fix_rule-w9mo"
+  ],
+  "enabled": true,
+  "id": "outbound",
+  "name": "outbound",
+  "description": "",
+  "version": "1"
+}

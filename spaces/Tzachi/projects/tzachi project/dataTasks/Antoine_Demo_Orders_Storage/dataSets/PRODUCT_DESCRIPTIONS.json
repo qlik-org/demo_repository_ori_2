@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "product_descriptions",
+      "name": "PRODUCT_DESCRIPTIONS",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_landing-w8qn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "product_descriptions-w8qu",
+  "name": "PRODUCT_DESCRIPTIONS",
+  "description": "",
+  "version": "1"
+}

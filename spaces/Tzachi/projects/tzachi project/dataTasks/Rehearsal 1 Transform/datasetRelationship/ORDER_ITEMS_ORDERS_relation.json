@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "order_items-hblv",
+    "name": "ORDER_ITEMS",
+    "projectId": "${tzachi_project}",
+    "dataAppId": "rehearsal_1_transform-rp54"
+  },
+  "targetEntity": {
+    "entityId": "orders-rp56",
+    "name": "ORDERS",
+    "projectId": "${tzachi_project}",
+    "dataAppId": "rehearsal_1_transform-rp54"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "ORDER_ID",
+      "targetColumn": "ORDER_ID",
+      "sourceColumnId": "order_id",
+      "targetColumnId": "order_id"
+    }
+  ],
+  "id": "order_items_orders_relation-w9m0",
+  "name": "ORDER_ITEMS_ORDERS_relation",
+  "description": "",
+  "version": "1"
+}

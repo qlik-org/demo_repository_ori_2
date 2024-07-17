@@ -1,0 +1,26 @@
+{
+  "sourceEntity": {
+    "entityId": "low_stock_products-rp6p",
+    "name": "LOW_STOCK_PRODUCTS",
+    "projectId": "${tzachi_project}",
+    "dataAppId": "rehearsal_1_transform-rp54"
+  },
+  "targetEntity": {
+    "entityId": "product_information-hblw",
+    "name": "PRODUCT_INFORMATION",
+    "projectId": "${tzachi_project}",
+    "dataAppId": "rehearsal_1_transform-rp54"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "PRODUCT_ID",
+      "targetColumn": "PRODUCT_ID",
+      "sourceColumnId": "product_id",
+      "targetColumnId": "product_id"
+    }
+  ],
+  "id": "low_stock_products_product_information_relation-mrnw",
+  "name": "LOW_STOCK_PRODUCTS_PRODUCT_INFORMATION_relation",
+  "description": "",
+  "version": "1"
+}

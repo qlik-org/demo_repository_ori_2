@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "inventories",
+      "name": "INVENTORIES",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_landing-w8qn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "inventories-w8qr",
+  "name": "INVENTORIES",
+  "description": "",
+  "version": "1"
+}

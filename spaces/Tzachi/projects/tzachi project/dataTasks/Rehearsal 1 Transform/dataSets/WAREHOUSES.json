@@ -1,0 +1,15 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "warehouses-w8qx",
+      "name": "WAREHOUSES",
+      "projectId": "${tzachi_project}",
+      "dataAppId": "antoine_demo_orders_storage-w8qo"
+    }
+  ],
+  "id": "warehouses-mrng",
+  "name": "WAREHOUSES",
+  "description": "",
+  "version": "1"
+}

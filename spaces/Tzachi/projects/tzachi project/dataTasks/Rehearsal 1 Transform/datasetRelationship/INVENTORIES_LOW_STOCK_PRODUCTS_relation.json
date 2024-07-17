@@ -1,0 +1,32 @@
+{
+  "sourceEntity": {
+    "entityId": "inventories-w9mr",
+    "name": "INVENTORIES",
+    "projectId": "${tzachi_project}",
+    "dataAppId": "rehearsal_1_transform-rp54"
+  },
+  "targetEntity": {
+    "entityId": "low_stock_products-rp6p",
+    "name": "LOW_STOCK_PRODUCTS",
+    "projectId": "${tzachi_project}",
+    "dataAppId": "rehearsal_1_transform-rp54"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "PRODUCT_ID",
+      "targetColumn": "PRODUCT_ID",
+      "sourceColumnId": "product_id",
+      "targetColumnId": "product_id"
+    },
+    {
+      "sourceColumn": "WAREHOUSE_ID",
+      "targetColumn": "WAREHOUSE_ID",
+      "sourceColumnId": "warehouse_id",
+      "targetColumnId": "warehouse_id"
+    }
+  ],
+  "id": "inventories_low_stock_products_relation-hbl8",
+  "name": "INVENTORIES_LOW_STOCK_PRODUCTS_relation",
+  "description": "",
+  "version": "1"
+}
