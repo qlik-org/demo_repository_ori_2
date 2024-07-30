@@ -1,0 +1,149 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "customers-m_b6",
+      "name": "CUSTOMERS",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_storage_tm-m_b4"
+    }
+  ],
+  "tableDef": {
+    "name": "CUSTOMERS",
+    "columns": [
+      {
+        "name": "CUSTOMER_ID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "customer_id"
+      },
+      {
+        "name": "CUST_FIRST_NAME",
+        "ordinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "cust_first_name"
+      },
+      {
+        "name": "CUST_LAST_NAME",
+        "ordinal": 3,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "cust_last_name"
+      },
+      {
+        "name": "NLS_LANGUAGE",
+        "ordinal": 6,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 3,
+          "originalTypeFull": "VARCHAR(3)"
+        },
+        "id": "nls_language"
+      },
+      {
+        "name": "NLS_TERRITORY",
+        "ordinal": 7,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 30,
+          "originalTypeFull": "VARCHAR(30)"
+        },
+        "id": "nls_territory"
+      },
+      {
+        "name": "CREDIT_LIMIT",
+        "ordinal": 8,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 9,
+          "scale": 2,
+          "originalTypeFull": "NUMBER(9,2)"
+        },
+        "id": "credit_limit"
+      },
+      {
+        "name": "CUST_EMAIL",
+        "ordinal": 9,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 40,
+          "originalTypeFull": "VARCHAR(40)"
+        },
+        "id": "cust_email"
+      },
+      {
+        "name": "ACCOUNT_MGR_ID",
+        "ordinal": 10,
+        "nullable": true,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "account_mgr_id"
+      },
+      {
+        "name": "DATE_OF_BIRTH",
+        "ordinal": 12,
+        "nullable": true,
+        "datatype": {
+          "type": "DATETIME",
+          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+        },
+        "id": "date_of_birth"
+      },
+      {
+        "name": "MARITAL_STATUS",
+        "ordinal": 13,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "marital_status"
+      },
+      {
+        "name": "GENDER",
+        "ordinal": 14,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "gender"
+      },
+      {
+        "name": "INCOME_LEVEL",
+        "ordinal": 15,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "income_level"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "customers-vivl",
+  "name": "CUSTOMERS",
+  "description": "",
+  "version": "1"
+}

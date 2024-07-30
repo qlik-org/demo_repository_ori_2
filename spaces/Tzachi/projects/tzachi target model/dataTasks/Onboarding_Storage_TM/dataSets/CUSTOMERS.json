@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "customers",
+      "name": "CUSTOMERS",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_landing_tm-m_b3"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "customers-m_b6",
+  "name": "CUSTOMERS",
+  "description": "",
+  "version": "1"
+}

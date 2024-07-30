@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "ORDERS",
+    "dbSchema": "OE",
+    "secureQri": ""
+  },
+  "id": "$replicate$OE_orders",
+  "name": "OE_ORDERS",
+  "description": "",
+  "version": "1"
+}

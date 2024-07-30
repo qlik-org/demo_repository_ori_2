@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "PRODUCT_DESCRIPTIONS",
+    "dbSchema": "OE",
+    "secureQri": ""
+  },
+  "id": "$replicate$OE_product_descriptions",
+  "name": "OE_PRODUCT_DESCRIPTIONS",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,86 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "order_items-m_b8",
+      "name": "ORDER_ITEMS",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_storage_tm-m_b4"
+    }
+  ],
+  "tableDef": {
+    "name": "ORDER_ITEMS",
+    "columns": [
+      {
+        "name": "ORDER_ID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 12,
+          "originalTypeFull": "NUMBER(12,0)"
+        },
+        "id": "order_id"
+      },
+      {
+        "name": "LINE_ITEM_ID",
+        "ordinal": 2,
+        "primaryKeyOrdinal": 2,
+        "datatype": {
+          "type": "INT2",
+          "originalTypeFull": "SMALLINT"
+        },
+        "id": "line_item_id"
+      },
+      {
+        "name": "PRODUCT_ID",
+        "ordinal": 3,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "product_id"
+      },
+      {
+        "name": "QUANTITY",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 8,
+          "originalTypeFull": "NUMBER(8,0)"
+        },
+        "id": "quantity"
+      },
+      {
+        "name": "LINE_PRICE",
+        "ordinal": 5,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 18,
+          "scale": 2,
+          "originalTypeFull": "NUMBER(18,2)"
+        },
+        "id": "LINE_PRICE-28cb"
+      },
+      {
+        "name": "UNIT_PRICE_IN_CENTS",
+        "ordinal": 6,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 8,
+          "scale": 2,
+          "originalTypeFull": "NUMBER(8,2)"
+        },
+        "id": "UNIT_PRICE_IN_CENTS-bc3f"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "order_items-iajq",
+  "name": "ORDER_ITEMS",
+  "description": "",
+  "version": "1"
+}

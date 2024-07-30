@@ -1,0 +1,13 @@
+{
+  "dataEntitiesSelection": {
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "%",
+        "entityType": "TABLE",
+        "projectId": "${tzachi_target_model}",
+        "dataAppId": "onboarding_storage_tm-m_b4"
+      }
+    ]
+  }
+}

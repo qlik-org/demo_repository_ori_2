@@ -1,0 +1,62 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "product_descriptions-m_b-",
+      "name": "PRODUCT_DESCRIPTIONS",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_storage_tm-m_b4"
+    }
+  ],
+  "tableDef": {
+    "name": "PRODUCT_DESCRIPTIONS",
+    "columns": [
+      {
+        "name": "PRODUCT_ID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "product_id"
+      },
+      {
+        "name": "LANGUAGE_ID",
+        "ordinal": 2,
+        "primaryKeyOrdinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 3,
+          "originalTypeFull": "VARCHAR(3)"
+        },
+        "id": "language_id"
+      },
+      {
+        "name": "TRANSLATED_NAME",
+        "ordinal": 3,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 50,
+          "originalTypeFull": "NVARCHAR(50)"
+        },
+        "id": "translated_name"
+      },
+      {
+        "name": "TRANSLATED_DESCRIPTION",
+        "ordinal": 4,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 2000,
+          "originalTypeFull": "NVARCHAR(2000)"
+        },
+        "id": "translated_description"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "product_descriptions-lj0v",
+  "name": "PRODUCT_DESCRIPTIONS",
+  "description": "",
+  "version": "1"
+}

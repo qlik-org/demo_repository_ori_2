@@ -1,0 +1,16 @@
+{
+  "dataEntitiesSelection": {
+    "sourceConnectionId": "${onboarding_landing_tm-m_b3.connection}",
+    "includePatterns": [
+      {
+        "tablePattern": "%",
+        "schemaPattern": "OE",
+        "entityType": "TABLE",
+        "projectId": "${tzachi_target_model}",
+        "dataAppId": "onboarding_landing_tm-m_b3"
+      }
+    ],
+    "excludePatterns": [],
+    "dataEntities": []
+  }
+}

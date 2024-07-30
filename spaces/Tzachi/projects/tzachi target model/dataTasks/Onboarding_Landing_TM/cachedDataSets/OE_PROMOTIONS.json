@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "PROMOTIONS",
+    "dbSchema": "OE",
+    "secureQri": ""
+  },
+  "id": "$replicate$OE_promotions",
+  "name": "OE_PROMOTIONS",
+  "description": "",
+  "version": "1"
+}

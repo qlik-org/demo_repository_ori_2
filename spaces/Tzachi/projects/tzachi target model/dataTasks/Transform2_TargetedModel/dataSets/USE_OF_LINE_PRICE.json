@@ -1,0 +1,66 @@
+{
+  "type": "CUSTOM",
+  "inputDataEntities": [
+    {
+      "entityId": "order_items-iajq",
+      "name": "ORDER_ITEMS",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "transform_targetedmodel-e8n5"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "USE_OF_LINE_PRICE",
+    "columns": [
+      {
+        "name": "KEY",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 1,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(1,0)"
+        },
+        "id": "key"
+      },
+      {
+        "name": "TOTAL",
+        "ordinal": 2,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 28,
+          "scale": 2,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(28,2)"
+        },
+        "id": "total"
+      }
+    ],
+    "secureQri": ""
+  },
+  "newName": "USE_OF_LINE_PRICE",
+  "customDataEntitySettings": {
+    "customSql": {
+      "expressionStatement": "select 1 as key, SUM(\u0022LINE_PRICE\u0022) as total from ${ORDER_ITEMS}",
+      "alias": [
+        {
+          "name": "ORDER_ITEMS",
+          "value": "${projectId}$_$transform_targetedmodel-e8n5$_$order_items-iajq"
+        }
+      ]
+    }
+  },
+  "id": "use_of_line_price-e8of",
+  "name": "USE_OF_LINE_PRICE",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "tableRules": [
+    "order_items-vivi"
+  ],
+  "enabled": true,
+  "id": "outbound",
+  "name": "outbound",
+  "description": "",
+  "version": "1"
+}

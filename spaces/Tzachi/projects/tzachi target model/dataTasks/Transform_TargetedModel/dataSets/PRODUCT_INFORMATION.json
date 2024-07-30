@@ -1,0 +1,140 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "product_information-m_b_",
+      "name": "PRODUCT_INFORMATION",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_storage_tm-m_b4"
+    }
+  ],
+  "tableDef": {
+    "name": "PRODUCT_INFORMATION",
+    "columns": [
+      {
+        "name": "PRODUCT_ID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "product_id"
+      },
+      {
+        "name": "PRODUCT_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "product_name"
+      },
+      {
+        "name": "PRODUCT_DESCRIPTION",
+        "ordinal": 3,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 2000,
+          "originalTypeFull": "VARCHAR(2000)"
+        },
+        "id": "product_description"
+      },
+      {
+        "name": "CATEGORY_ID",
+        "ordinal": 4,
+        "nullable": true,
+        "datatype": {
+          "type": "INT1",
+          "originalTypeFull": "BYTEINT"
+        },
+        "id": "category_id"
+      },
+      {
+        "name": "WEIGHT_CLASS",
+        "ordinal": 5,
+        "nullable": true,
+        "datatype": {
+          "type": "INT1",
+          "originalTypeFull": "BYTEINT"
+        },
+        "id": "weight_class"
+      },
+      {
+        "name": "WARRANTY_PERIOD",
+        "ordinal": 6,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 13,
+          "originalTypeFull": "VARCHAR(13)"
+        },
+        "id": "warranty_period"
+      },
+      {
+        "name": "SUPPLIER_ID",
+        "ordinal": 7,
+        "nullable": true,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "supplier_id"
+      },
+      {
+        "name": "PRODUCT_STATUS",
+        "ordinal": 8,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "product_status"
+      },
+      {
+        "name": "LIST_PRICE",
+        "ordinal": 9,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 8,
+          "scale": 2,
+          "originalTypeFull": "NUMBER(8,2)"
+        },
+        "id": "list_price"
+      },
+      {
+        "name": "MIN_PRICE",
+        "ordinal": 10,
+        "nullable": true,
+        "datatype": {
+          "type": "NUMERIC",
+          "precision": 8,
+          "scale": 2,
+          "originalTypeFull": "NUMBER(8,2)"
+        },
+        "id": "min_price"
+      },
+      {
+        "name": "CATALOG_URL",
+        "ordinal": 11,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "catalog_url"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "product_information-e8n7",
+  "name": "PRODUCT_INFORMATION",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "STORAGE",
+  "inputDataEntities": [
+    {
+      "entityId": "product_information",
+      "name": "PRODUCT_INFORMATION",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_landing_tm-m_b3"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "product_information-m_b_",
+  "name": "PRODUCT_INFORMATION",
+  "description": "",
+  "version": "1"
+}

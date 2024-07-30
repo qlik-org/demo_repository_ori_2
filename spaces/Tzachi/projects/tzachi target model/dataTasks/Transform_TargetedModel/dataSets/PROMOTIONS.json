@@ -1,0 +1,42 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDataEntities": [
+    {
+      "entityId": "promotions-m_ca",
+      "name": "PROMOTIONS",
+      "projectId": "${tzachi_target_model}",
+      "dataAppId": "onboarding_storage_tm-m_b4"
+    }
+  ],
+  "tableDef": {
+    "name": "PROMOTIONS",
+    "columns": [
+      {
+        "name": "PROMO_ID",
+        "ordinal": 1,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "promo_id"
+      },
+      {
+        "name": "PROMO_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "datatype": {
+          "type": "STRING",
+          "length": 20,
+          "originalTypeFull": "VARCHAR(20)"
+        },
+        "id": "promo_name"
+      }
+    ],
+    "secureQri": ""
+  },
+  "id": "promotions-vivn",
+  "name": "PROMOTIONS",
+  "description": "",
+  "version": "1"
+}

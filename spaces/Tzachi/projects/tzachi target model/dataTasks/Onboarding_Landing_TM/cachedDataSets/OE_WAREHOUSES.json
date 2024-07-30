@@ -1,0 +1,12 @@
+{
+  "type": "LANDING",
+  "tableDef": {
+    "name": "WAREHOUSES",
+    "dbSchema": "OE",
+    "secureQri": ""
+  },
+  "id": "$replicate$OE_warehouses",
+  "name": "OE_WAREHOUSES",
+  "description": "",
+  "version": "1"
+}
