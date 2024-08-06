@@ -1,0 +1,23 @@
+{
+  "project": {
+    "space": "ori",
+    "id": "${p1}",
+    "name": "p1",
+    "type": "DATA_MOVEMENT",
+    "description": "",
+    "schemaPrefix": "",
+    "lakehouseType": "MSSQL",
+    "originalLakehouseType": "MSSQL"
+  },
+  "appSourceConnections": {},
+  "sourceConnections": {},
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": []
+}
