@@ -1,0 +1,49 @@
+{
+  "dataEntitiesSelection": {
+    "sourceConnectionId": "${landing-w-b-.connection}",
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_categories",
+        "schema": "dbo",
+        "name": "Categories",
+        "projectId": "${rosie_1}",
+        "dataAppId": "landing-w-b-"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_order_details",
+        "schema": "dbo",
+        "name": "Order Details",
+        "projectId": "${rosie_1}",
+        "dataAppId": "landing-w-b-"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_orders",
+        "schema": "dbo",
+        "name": "Orders",
+        "projectId": "${rosie_1}",
+        "dataAppId": "landing-w-b-"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_products",
+        "schema": "dbo",
+        "name": "Products",
+        "projectId": "${rosie_1}",
+        "dataAppId": "landing-w-b-"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_suppliers",
+        "schema": "dbo",
+        "name": "Suppliers",
+        "projectId": "${rosie_1}",
+        "dataAppId": "landing-w-b-"
+      }
+    ]
+  }
+}
