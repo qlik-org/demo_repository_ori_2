@@ -16,8 +16,17 @@
     },
     "qvdStorageLocationType": "NONE"
   },
-  "appSourceConnections": {},
-  "sourceConnections": {},
+  "appSourceConnections": {
+    "${landing-rwie.connection}": "rosie.Rosie Microsoft_SQL_Server_(log_based)"
+  },
+  "sourceConnections": {
+    "rosie.Rosie Microsoft_SQL_Server_(log_based)": {
+      "type": "repsrc_mssql",
+      "space": "rosie",
+      "name": "Rosie Microsoft_SQL_Server_(log_based)",
+      "id": "d7dea668-f1c5-45e4-9bc0-1dbe646c9d73"
+    }
+  },
   "appTargetConnections": {},
   "targetConnections": {},
   "databases": {
@@ -35,5 +44,19 @@
     "datamart": "",
     "appOverrides": {}
   },
-  "dataAssetsMapping": []
+  "dataAssetsMapping": [
+    {
+      "appId": "landing-rwie",
+      "mappings": [
+        {
+          "from": {
+            "schema": "dbo"
+          },
+          "to": {
+            "schema": "dbo"
+          }
+        }
+      ]
+    }
+  ]
 }
