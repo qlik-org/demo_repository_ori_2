@@ -1,0 +1,39 @@
+{
+  "project": {
+    "space": "rosie",
+    "id": "${rosie1}",
+    "name": "rosie1",
+    "type": "DATA_PIPELINE",
+    "description": "",
+    "schemaPrefix": "vc_oor1_",
+    "lakehouseType": "MSSQL",
+    "originalLakehouseType": "MSSQL",
+    "storageConnection": {
+      "type": "reptgt_mssqltarget",
+      "space": "rosie",
+      "name": "Microsoft_SQL_Server_Target",
+      "id": "ac7ddf89-2e9a-42c0-8fbb-99f1377f6745"
+    },
+    "qvdStorageLocationType": "NONE"
+  },
+  "appSourceConnections": {},
+  "sourceConnections": {},
+  "appTargetConnections": {},
+  "targetConnections": {},
+  "databases": {
+    "landing": "AutoDWH",
+    "storage": "AutoDWH",
+    "transform": "AutoDWH",
+    "datamart": "AutoDWH",
+    "registeredData": "AutoDWH",
+    "appOverrides": {}
+  },
+  "executionEngines": {
+    "landing": "",
+    "storage": "",
+    "transform": "",
+    "datamart": "",
+    "appOverrides": {}
+  },
+  "dataAssetsMapping": []
+}
