@@ -4,6 +4,7 @@
   "tableDef": {
     "name": "Customers",
     "dbSchema": "dbo",
+    "dbName": "AutoNorthwind",
     "secureQri": "",
     "fullLoadOnly": false
   },

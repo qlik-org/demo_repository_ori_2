@@ -1,0 +1,62 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "NONE",
+      "entityId": "customercustomerdemo-hsdq",
+      "name": "CustomerCustomerDemo",
+      "projectId": "${demo}",
+      "dataAppId": "onboarding_storage-hsdn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "OFF",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "CustomerCustomerDemo",
+    "columns": [
+      {
+        "name": "CustomerID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 5,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "NVARCHAR(5)"
+        },
+        "id": "customerid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CustomerTypeID",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 2,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "NVARCHAR(10)"
+        },
+        "id": "customertypeid",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "id": "customercustomerdemo-cqze",
+  "name": "CustomerCustomerDemo",
+  "description": "",
+  "version": "1"
+}

@@ -4,6 +4,7 @@
   "tableDef": {
     "name": "Territories",
     "dbSchema": "dbo",
+    "dbName": "AutoNorthwind",
     "secureQri": "",
     "fullLoadOnly": false
   },

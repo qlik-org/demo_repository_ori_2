@@ -1,0 +1,77 @@
+{
+  "type": "TRANSFORM_MODEL_BASED",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "NONE",
+      "entityId": "territories-hsdb",
+      "name": "Territories",
+      "projectId": "${demo}",
+      "dataAppId": "onboarding_storage-hsdn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "OFF",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "Territories",
+    "columns": [
+      {
+        "name": "TerritoryID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 20,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "NVARCHAR(20)"
+        },
+        "id": "territoryid",
+        "flags": "NONE"
+      },
+      {
+        "name": "TerritoryDescription",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "NVARCHAR(50)"
+        },
+        "id": "territorydescription",
+        "flags": "NONE"
+      },
+      {
+        "name": "RegionID",
+        "ordinal": 3,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "regionid",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "id": "territories-cqzo",
+  "name": "Territories",
+  "description": "",
+  "version": "1"
+}
