@@ -1,0 +1,14 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "tableDef": {
+    "name": "Territories",
+    "dbSchema": "dbo",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "id": "$replicate$dbo_territories",
+  "name": "dbo_Territories",
+  "description": "",
+  "version": "1"
+}

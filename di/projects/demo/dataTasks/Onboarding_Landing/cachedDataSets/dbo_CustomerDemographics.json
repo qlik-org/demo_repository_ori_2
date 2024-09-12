@@ -1,0 +1,14 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "tableDef": {
+    "name": "CustomerDemographics",
+    "dbSchema": "dbo",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "id": "$replicate$dbo_customerdemographics",
+  "name": "dbo_CustomerDemographics",
+  "description": "",
+  "version": "1"
+}

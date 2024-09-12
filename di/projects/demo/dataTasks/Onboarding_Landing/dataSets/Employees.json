@@ -1,0 +1,18 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$dbo_employees",
+      "schema": "dbo",
+      "name": "Employees",
+      "projectId": "${demo}",
+      "dataAppId": "onboarding_landing-hsdm"
+    }
+  ],
+  "id": "employees",
+  "name": "Employees",
+  "description": "",
+  "version": "1"
+}
