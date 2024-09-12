@@ -1,0 +1,18 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$dbo_shippers",
+      "schema": "dbo",
+      "name": "Shippers",
+      "projectId": "${demo_project}",
+      "dataAppId": "onboarding_landing-cnxn"
+    }
+  ],
+  "id": "shippers",
+  "name": "Shippers",
+  "description": "",
+  "version": "1"
+}

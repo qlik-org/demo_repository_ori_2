@@ -1,0 +1,14 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "tableDef": {
+    "name": "Categories",
+    "dbSchema": "dbo",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "id": "$replicate$dbo_categories",
+  "name": "dbo_Categories",
+  "description": "",
+  "version": "1"
+}

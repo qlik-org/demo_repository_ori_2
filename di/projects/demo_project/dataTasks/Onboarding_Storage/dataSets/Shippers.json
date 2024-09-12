@@ -1,0 +1,25 @@
+{
+  "type": "STORAGE",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "NONE",
+      "entityId": "shippers",
+      "name": "Shippers",
+      "projectId": "${demo_project}",
+      "dataAppId": "onboarding_landing-cnxn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "shippers-cnxx",
+  "name": "Shippers",
+  "description": "",
+  "version": "1"
+}

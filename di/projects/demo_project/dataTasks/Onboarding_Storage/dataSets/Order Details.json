@@ -1,0 +1,25 @@
+{
+  "type": "STORAGE",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "NONE",
+      "entityId": "order_details",
+      "name": "Order Details",
+      "projectId": "${demo_project}",
+      "dataAppId": "onboarding_landing-cnxn"
+    }
+  ],
+  "dataEntityAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "id": "order_details-cnxt",
+  "name": "Order Details",
+  "description": "",
+  "version": "1"
+}
