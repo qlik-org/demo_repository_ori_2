@@ -1,10 +1,10 @@
 {
   "fullLoadOnly": false,
-  "storageAppSettings": {
+  "datamartAppSettings": {
     "artifactsLocation": {
-      "internalSchema": "$prefix$storage1__internal",
-      "dataAssetSchema": "$prefix$storage1",
-      "database": "${storage}"
+      "internalSchema": "$prefix$data_mart__internal_1",
+      "dataAssetSchema": "$prefix$data_mart",
+      "database": "${datamart}"
     },
     "artifactsInfo": {
       "prefixForAllTablesAndViews": "",
@@ -16,14 +16,14 @@
       },
       "headerColumnsPrefix": "hdr__",
       "history": {
-        "enabled": true,
+        "enabled": false,
         "historyViewsSuffix": "__history_5",
         "fromDateColumnName": "hdr__from_timestamp",
         "toDateColumnName": "hdr__to_timestamp",
         "priorTablesSuffix": "__prior"
       },
       "changeTables": {
-        "enabled": true,
+        "enabled": false,
         "tablesSuffix": "__ct",
         "viewsSuffix": "__changes_3"
       },
@@ -33,7 +33,7 @@
       },
       "current": {
         "standardViewsSuffix": "4_",
-        "currentTablesSuffix": "__current"
+        "currentTablesSuffix": "__t"
       },
       "materialized": true,
       "reloadType": "COMPARE_AND_APPLY_WITH_DELETED_ROWS"

@@ -1,10 +1,10 @@
 {
   "fullLoadOnly": false,
-  "storageAppSettings": {
+  "transformAppSettings": {
     "artifactsLocation": {
-      "internalSchema": "$prefix$storage1__internal",
-      "dataAssetSchema": "$prefix$storage1",
-      "database": "${storage}"
+      "internalSchema": "$prefix$transform_1__internal_1",
+      "dataAssetSchema": "$prefix$transform_1",
+      "database": "${transform}"
     },
     "artifactsInfo": {
       "prefixForAllTablesAndViews": "",
@@ -48,7 +48,7 @@
       }
     },
     "catalogSettings": {
-      "publish": false,
+      "publish": true,
       "tags": []
     }
   }

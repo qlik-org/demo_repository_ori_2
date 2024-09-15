@@ -4,7 +4,7 @@
     "id": "${rosie3}",
     "name": "rosie3",
     "type": "DATA_PIPELINE",
-    "description": "",
+    "description": "created on Sep 15",
     "schemaPrefix": "vc2_",
     "lakehouseType": "MSSQL",
     "originalLakehouseType": "MSSQL",

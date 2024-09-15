@@ -20,11 +20,11 @@
       "schedulingType": "TIME_BASED"
     },
     "catalogSettings": {
-      "publish": false,
+      "publish": true,
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT",
+      "connectionType": "CUSTOM",
       "name": "AutoDWH"
     }
   },
@@ -48,12 +48,12 @@
       "proxyStorage": false
     },
     "database": {
-      "connectionType": "DEFAULT",
+      "connectionType": "CUSTOM",
       "name": "AutoDWH"
     }
   },
   "transformSettingsDefaults": {
-    "materialized": false,
+    "materialized": true,
     "hasHistory": true,
     "transactionalLiveViews": false,
     "hasLiveViews": false,
@@ -73,11 +73,11 @@
       "schedulingType": "EVENT_BASED"
     },
     "catalogSettings": {
-      "publish": false,
+      "publish": true,
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT",
+      "connectionType": "CUSTOM",
       "name": "AutoDWH"
     }
   },
@@ -102,21 +102,21 @@
       "schedulingType": "EVENT_BASED"
     },
     "catalogSettings": {
-      "publish": true,
+      "publish": false,
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT",
+      "connectionType": "CUSTOM",
       "name": "AutoDWH"
     }
   },
   "artifactsNamingDefaults": {
-    "suffixLiveViews": "__live",
-    "suffixChangesView": "__changes",
-    "suffixCurrentView": "",
-    "suffixHistoryViews": "__history",
-    "suffixLiveHistoryViews": "__live_history",
-    "suffixInternalSchema": "__internal",
+    "suffixLiveViews": "__live_2",
+    "suffixChangesView": "__changes_3",
+    "suffixCurrentView": "4_",
+    "suffixHistoryViews": "__history_5",
+    "suffixLiveHistoryViews": "__live_history_6",
+    "suffixInternalSchema": "__internal_1",
     "prefixHeaderColumns": "hdr__",
     "prefixSchema": "vc2_"
   },
@@ -133,11 +133,11 @@
       "priorImageSupport": false
     },
     "catalogSettings": {
-      "publish": false,
+      "publish": true,
       "tags": []
     },
     "database": {
-      "connectionType": "DEFAULT",
+      "connectionType": "CUSTOM",
       "name": "AutoDWH"
     }
   },
