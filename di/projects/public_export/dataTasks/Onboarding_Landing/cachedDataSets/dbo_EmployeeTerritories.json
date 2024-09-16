@@ -1,0 +1,15 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "tableDef": {
+    "name": "EmployeeTerritories",
+    "dbSchema": "dbo",
+    "dbName": "AutoNorthwind",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "id": "$replicate$dbo_employeeterritories",
+  "name": "dbo_EmployeeTerritories",
+  "description": "",
+  "version": "1"
+}

@@ -1,0 +1,113 @@
+{
+  "dataEntitiesSelection": {
+    "sourceConnectionId": "${onboarding_landing-hsdm.connection}",
+    "includePatterns": [],
+    "excludePatterns": [],
+    "dataEntities": [
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_categories",
+        "schema": "dbo",
+        "name": "Categories",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_customercustomerdemo",
+        "schema": "dbo",
+        "name": "CustomerCustomerDemo",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_customerdemographics",
+        "schema": "dbo",
+        "name": "CustomerDemographics",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_customers",
+        "schema": "dbo",
+        "name": "Customers",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_employees",
+        "schema": "dbo",
+        "name": "Employees",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_employeeterritories",
+        "schema": "dbo",
+        "name": "EmployeeTerritories",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_order_details",
+        "schema": "dbo",
+        "name": "Order Details",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_orders",
+        "schema": "dbo",
+        "name": "Orders",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_products",
+        "schema": "dbo",
+        "name": "Products",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_region",
+        "schema": "dbo",
+        "name": "Region",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_shippers",
+        "schema": "dbo",
+        "name": "Shippers",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_suppliers",
+        "schema": "dbo",
+        "name": "Suppliers",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      },
+      {
+        "type": "TABLE",
+        "entityId": "$replicate$dbo_territories",
+        "schema": "dbo",
+        "name": "Territories",
+        "projectId": "${public_export}",
+        "dataAppId": "onboarding_landing-hsdm"
+      }
+    ]
+  }
+}
