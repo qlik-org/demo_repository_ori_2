@@ -54,7 +54,7 @@
   },
   "maximumLobSize": 8,
   "includeLobColumns": true,
-  "isReplicateLanding": false,
+  "isReplicateLanding": true,
   "landingType": "REPLICATE",
   "proxySettings": {
     "proxyOdbc": false,
