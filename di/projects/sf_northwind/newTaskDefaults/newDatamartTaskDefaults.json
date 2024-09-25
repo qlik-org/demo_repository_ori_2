@@ -1,0 +1,15 @@
+{
+  "materialized": false,
+  "hasHistory": false,
+  "taskRuntime": {
+    "tableUpdateConcurrency": 10,
+    "warehouseSelection": {
+      "warehouseName": "LOAD_WH",
+      "selectionMethod": "DEFAULT"
+    }
+  },
+  "taskRunSchedule": {
+    "runInterval": 15,
+    "schedulingType": "TIME_BASED"
+  }
+}
