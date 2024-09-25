@@ -2,7 +2,8 @@
   "taskRuntime": {
     "tableLoadInParallel": 5,
     "warehouseSelection": {
-      "selectionMethod": "DEFAULT"
+      "warehouseName": "${task-type.landing.warehouseName}",
+      "selectionMethod": "${task-type.landing.warehouseSelectionMethod}"
     }
   },
   "proxySettings": {
@@ -10,6 +11,7 @@
     "proxyStorage": false
   },
   "databaseSelection": {
-    "selectionMethod": "DEFAULT"
+    "databaseName": "${task-type.landing.databaseName}",
+    "selectionMethod": "${task-type.landing.databaseSelectionMethod}"
   }
 }
