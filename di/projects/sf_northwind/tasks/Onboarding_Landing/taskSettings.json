@@ -34,7 +34,7 @@
   },
   "landingDwSettings": {
     "landingArtifactsLocation": {
-      "dataAssetSchema": "onboarding_landing",
+      "dataAssetSchema": "testonboarding_landing",
       "database": "ORI"
     }
   },
