@@ -1,0 +1,21 @@
+{
+  "sourceConnection": "${task.land_1-rlcf.sourceConnection}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "${task.land_1-rlcf:null$_$dbo.database}",
+      "name": "Products",
+      "schema": "${task.land_1-rlcf:null$_$dbo.schema}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_products"
+    },
+    {
+      "database": "${task.land_1-rlcf:null$_$dbo.database}",
+      "name": "Suppliers",
+      "schema": "${task.land_1-rlcf:null$_$dbo.schema}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_suppliers"
+    }
+  ]
+}
