@@ -93,6 +93,13 @@
       "schema": "${task.onboarding_landing-umkw:null$_$dbo.schema}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_territories"
+    },
+    {
+      "database": "${task.onboarding_landing-umkw:null$_$dbo.database}",
+      "name": "Products__ct_bu",
+      "schema": "${task.onboarding_landing-umkw:null$_$dbo.schema}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_products_ct_bu"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "id": "$replicate$dbo_products_ct_bu",
+  "name": "dbo_Products__ct_bu",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "Products__ct_bu",
+    "dbSchema": "${task.onboarding_landing-umkw:null$_$dbo.schema}",
+    "dbName": "${task.onboarding_landing-umkw:null$_$dbo.database}",
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}
