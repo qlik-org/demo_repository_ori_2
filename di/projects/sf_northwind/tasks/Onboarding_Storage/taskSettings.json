@@ -1,8 +1,8 @@
 {
   "artifactsLocation": {
-    "internalSchema": "onboarding_storage__internal",
-    "taskSchema": "onboarding_storage",
-    "databaseName": "ORI"
+    "internalSchema": "${task.onboarding_storage-umkx.internalSchema}",
+    "taskSchema": "${task.onboarding_storage-umkx.taskSchema}",
+    "databaseName": "${task.onboarding_storage-umkx.databaseName}"
   },
   "artifactsSettings": {
     "liveViewsEnabled": true,
@@ -12,8 +12,8 @@
   "taskRuntime": {
     "tableUpdateConcurrency": 10,
     "warehouseSelection": {
-      "warehouseName": "LOAD_WH",
-      "selectionMethod": "DEFAULT"
+      "warehouseName": "${task.onboarding_storage-umkx.warehouseName}",
+      "selectionMethod": "${task.onboarding_storage-umkx.warehouseSelectionMethod}"
     }
   }
 }
