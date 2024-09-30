@@ -34,7 +34,7 @@
   },
   "landingDwSettings": {
     "landingArtifactsLocation": {
-      "dataAssetSchema": "sep30_1_land_1",
+      "dataAssetSchema": "sep30_1_barb1_land_1",
       "database": "AutoDWH"
     }
   },
