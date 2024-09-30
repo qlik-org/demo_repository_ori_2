@@ -28,5 +28,11 @@
   "task.storage-cff2.taskSchema": "",
   "task.storage-cff2.warehouseName": "",
   "task.storage-cff2.warehouseSelectionMethod": "",
-  "task.storage-cff2:null$_$null.schema": ""
+  "task.storage-cff2:null$_$null.schema": "",
+  "task.data_mart-s0ab.databaseName": "",
+  "task.data_mart-s0ab.internalSchema": "",
+  "task.data_mart-s0ab.taskSchema": "",
+  "task.data_mart-s0ab.warehouseName": "",
+  "task.data_mart-s0ab.warehouseSelectionMethod": "",
+  "task.data_mart-s0ab:null$_$%.schemaPattern": ""
 }
