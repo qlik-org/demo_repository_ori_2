@@ -30,5 +30,11 @@
   "task.storage-s0ai.taskSchema": "",
   "task.storage-s0ai.warehouseName": "",
   "task.storage-s0ai.warehouseSelectionMethod": "",
-  "task.storage-s0ai:null$_$null.schema": ""
+  "task.storage-s0ai:null$_$null.schema": "",
+  "task.transform-s0am.databaseName": "",
+  "task.transform-s0am.internalSchema": "",
+  "task.transform-s0am.taskSchema": "",
+  "task.transform-s0am.warehouseName": "",
+  "task.transform-s0am.warehouseSelectionMethod": "",
+  "task.transform-s0am:null$_$%.schemaPattern": ""
 }
