@@ -13,6 +13,18 @@
       "schema": "${task.storage-cff2:null$_$null.schema}",
       "type": "NONE",
       "sourceTableId": "suppliers"
+    },
+    {
+      "name": "Categories",
+      "schema": "${task.storage-cff2:null$_$null.schema}",
+      "type": "NONE",
+      "sourceTableId": "categories"
+    },
+    {
+      "name": "Order Details",
+      "schema": "${task.storage-cff2:null$_$null.schema}",
+      "type": "NONE",
+      "sourceTableId": "order_details"
     }
   ]
 }

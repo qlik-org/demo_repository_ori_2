@@ -34,7 +34,7 @@
   },
   "landingDwSettings": {
     "landingArtifactsLocation": {
-      "dataAssetSchema": "sep30_1_land_1",
+      "dataAssetSchema": "sep30_1_barb1_land_1",
       "database": "AutoDWH"
     }
   },
@@ -206,5 +206,14 @@
       "consistencyTimeout": 600,
       "commitRate": 10000
     }
+  },
+  "ddlHandlingPolicy": {
+    "addColumn": "APPLY_TO_TARGET",
+    "changeColumnType": "IGNORE",
+    "renameTable": "IGNORE",
+    "renameColumn": "IGNORE",
+    "dropTable": "IGNORE",
+    "dropColumn": "IGNORE",
+    "truncateTable": "IGNORE"
   }
 }

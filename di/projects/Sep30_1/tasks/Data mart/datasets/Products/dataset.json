@@ -1,0 +1,21 @@
+{
+  "id": "products-s0ae",
+  "name": "Products",
+  "type": "FACT",
+  "inputDatasets": [
+    {
+      "datasetId": "products-rlcl",
+      "name": "Products",
+      "projectId": "${ref(project.current.projectId)}",
+      "taskId": "storage-cff2"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "ON",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "sourceEntity": {
+    "datasetId": "products-rlcl",
+    "name": "Products",
+    "projectId": "${ref(project.current.projectId)}",
+    "taskId": "storage-cff2"
+  },
+  "targetEntity": {
+    "datasetId": "categories-d8lq",
+    "name": "Categories",
+    "projectId": "${ref(project.current.projectId)}",
+    "taskId": "storage-cff2"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "CategoryID",
+      "targetColumn": "CategoryID",
+      "sourceColumnId": "categoryid",
+      "targetColumnId": "categoryid"
+    }
+  ],
+  "name": "Products_Categories_relation",
+  "description": "",
+  "id": "products_categories_relation-s0aa"
+}
