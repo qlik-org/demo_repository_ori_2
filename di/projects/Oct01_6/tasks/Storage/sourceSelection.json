@@ -1,0 +1,22 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "storage-pcte",
+      "name": "Customers",
+      "schema": "{{task.storage-pcte:null$_$null.schema}}",
+      "type": "NONE",
+      "sourceTableId": "customers"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "storage-pcte",
+      "name": "Employees",
+      "schema": "{{task.storage-pcte:null$_$null.schema}}",
+      "type": "NONE",
+      "sourceTableId": "employees"
+    }
+  ]
+}

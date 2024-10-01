@@ -27,5 +27,11 @@
   "task.landing-vh_k:null$_$dbo.database": "",
   "task.landing-vh_k:null$_$dbo.schema": "",
   "task.landing-vh_k:AutoNorthwind$_$dbo.database": "",
-  "task.landing-vh_k:AutoNorthwind$_$dbo.schema": ""
+  "task.landing-vh_k:AutoNorthwind$_$dbo.schema": "",
+  "task.storage-pcte.databaseName": "",
+  "task.storage-pcte.internalSchema": "",
+  "task.storage-pcte.taskSchema": "",
+  "task.storage-pcte.warehouseName": "",
+  "task.storage-pcte.warehouseSelectionMethod": "",
+  "task.storage-pcte:null$_$null.schema": ""
 }

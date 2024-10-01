@@ -16,6 +16,27 @@
       "schema": "{{task.landing-vh_k:null$_$dbo.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$dbo_employees"
+    },
+    {
+      "database": "{{task.landing-vh_k:null$_$dbo.database}}",
+      "name": "Order Details",
+      "schema": "{{task.landing-vh_k:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_order_details"
+    },
+    {
+      "database": "{{task.landing-vh_k:null$_$dbo.database}}",
+      "name": "Orders",
+      "schema": "{{task.landing-vh_k:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_orders"
+    },
+    {
+      "database": "{{task.landing-vh_k:null$_$dbo.database}}",
+      "name": "Shippers",
+      "schema": "{{task.landing-vh_k:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_shippers"
     }
   ]
 }
