@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "Employees",
-    "dbSchema": "{{task.landing-6ath:null$_$dbo.schema}}",
-    "dbName": "{{task.landing-6ath:null$_$dbo.database}}",
+    "dbSchema": "{{task.landing-6ath:AutoNorthwind$_$dbo.schema}}",
+    "dbName": "{{task.landing-6ath:AutoNorthwind$_$dbo.database}}",
     "columns": [
       {
         "name": "EmployeeID",
