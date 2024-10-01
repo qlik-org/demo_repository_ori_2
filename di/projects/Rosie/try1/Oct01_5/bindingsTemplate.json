@@ -27,5 +27,11 @@
   "task.landing-9gyd:null$_$dbo.database": "",
   "task.landing-9gyd:null$_$dbo.schema": "",
   "task.landing-9gyd:AutoNorthwind$_$dbo.database": "",
-  "task.landing-9gyd:AutoNorthwind$_$dbo.schema": ""
+  "task.landing-9gyd:AutoNorthwind$_$dbo.schema": "",
+  "task.storage-rvkj.databaseName": "",
+  "task.storage-rvkj.internalSchema": "",
+  "task.storage-rvkj.taskSchema": "",
+  "task.storage-rvkj.warehouseName": "",
+  "task.storage-rvkj.warehouseSelectionMethod": "",
+  "task.storage-rvkj:null$_$null.schema": ""
 }
