@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "Suppliers",
-    "dbSchema": "${task.landing-pizh:null$_$dbo.schema}",
-    "dbName": "${task.landing-pizh:null$_$dbo.database}",
+    "dbSchema": "${task.landing-pizh:AutoNorthwind$_$dbo.schema}",
+    "dbName": "${task.landing-pizh:AutoNorthwind$_$dbo.database}",
     "columns": [
       {
         "name": "SupplierID",

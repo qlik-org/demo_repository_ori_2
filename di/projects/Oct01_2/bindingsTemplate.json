@@ -33,5 +33,11 @@
   "task.storage-pizi.taskSchema": "",
   "task.storage-pizi.warehouseName": "",
   "task.storage-pizi.warehouseSelectionMethod": "",
-  "task.storage-pizi:null$_$null.schema": ""
+  "task.storage-pizi:null$_$null.schema": "",
+  "task.data_mart-wodv.databaseName": "",
+  "task.data_mart-wodv.internalSchema": "",
+  "task.data_mart-wodv.taskSchema": "",
+  "task.data_mart-wodv.warehouseName": "",
+  "task.data_mart-wodv.warehouseSelectionMethod": "",
+  "task.data_mart-wodv:null$_$%.schemaPattern": ""
 }
