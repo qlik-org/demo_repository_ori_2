@@ -33,5 +33,11 @@
   "task.store-wocs.taskSchema": "",
   "task.store-wocs.warehouseName": "",
   "task.store-wocs.warehouseSelectionMethod": "",
-  "task.store-wocs:null$_$null.schema": ""
+  "task.store-wocs:null$_$null.schema": "",
+  "task.data_mart-woc8.databaseName": "",
+  "task.data_mart-woc8.internalSchema": "",
+  "task.data_mart-woc8.taskSchema": "",
+  "task.data_mart-woc8.warehouseName": "",
+  "task.data_mart-woc8.warehouseSelectionMethod": "",
+  "task.data_mart-woc8:null$_$%.schemaPattern": ""
 }

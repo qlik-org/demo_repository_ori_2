@@ -17,6 +17,22 @@
       "schema": "${task.store-wocs:null$_$null.schema}",
       "type": "NONE",
       "sourceTableId": "order_details"
+    },
+    {
+      "sourceProject": "${ref(project.current.projectId)}",
+      "sourceTask": "store-wocs",
+      "name": "Products",
+      "schema": "${task.store-wocs:null$_$null.schema}",
+      "type": "NONE",
+      "sourceTableId": "products"
+    },
+    {
+      "sourceProject": "${ref(project.current.projectId)}",
+      "sourceTask": "store-wocs",
+      "name": "Suppliers",
+      "schema": "${task.store-wocs:null$_$null.schema}",
+      "type": "NONE",
+      "sourceTableId": "suppliers"
     }
   ]
 }
