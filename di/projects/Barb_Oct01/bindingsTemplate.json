@@ -31,5 +31,11 @@
   "task.storage-woda.taskSchema": "",
   "task.storage-woda.warehouseName": "",
   "task.storage-woda.warehouseSelectionMethod": "",
-  "task.storage-woda:null$_$null.schema": ""
+  "task.storage-woda:null$_$null.schema": "",
+  "task.data_mart-wodh.databaseName": "",
+  "task.data_mart-wodh.internalSchema": "",
+  "task.data_mart-wodh.taskSchema": "",
+  "task.data_mart-wodh.warehouseName": "",
+  "task.data_mart-wodh.warehouseSelectionMethod": "",
+  "task.data_mart-wodh:null$_$%.schemaPattern": ""
 }
