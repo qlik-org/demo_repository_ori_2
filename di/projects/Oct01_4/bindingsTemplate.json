@@ -33,5 +33,11 @@
   "task.storage-x8_x.taskSchema": "",
   "task.storage-x8_x.warehouseName": "",
   "task.storage-x8_x.warehouseSelectionMethod": "",
-  "task.storage-x8_x:null$_$null.schema": ""
+  "task.storage-x8_x:null$_$null.schema": "",
+  "task.data_mart-x8_k.databaseName": "",
+  "task.data_mart-x8_k.internalSchema": "",
+  "task.data_mart-x8_k.taskSchema": "",
+  "task.data_mart-x8_k.warehouseName": "",
+  "task.data_mart-x8_k.warehouseSelectionMethod": "",
+  "task.data_mart-x8_k:null$_$%.schemaPattern": ""
 }
