@@ -33,5 +33,11 @@
   "task.storage-pcte.taskSchema": "",
   "task.storage-pcte.warehouseName": "",
   "task.storage-pcte.warehouseSelectionMethod": "",
-  "task.storage-pcte:null$_$null.schema": ""
+  "task.storage-pcte:null$_$null.schema": "",
+  "task.data_mart-rvkt.databaseName": "",
+  "task.data_mart-rvkt.internalSchema": "",
+  "task.data_mart-rvkt.taskSchema": "",
+  "task.data_mart-rvkt.warehouseName": "",
+  "task.data_mart-rvkt.warehouseSelectionMethod": "",
+  "task.data_mart-rvkt:null$_$%.schemaPattern": ""
 }
