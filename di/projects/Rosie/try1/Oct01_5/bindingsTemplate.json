@@ -20,5 +20,12 @@
   "task-type.datamart.warehouseName": "",
   "task-type.datamart.warehouseSelectionMethod": "",
   "task-type.datamart.databaseName": "",
-  "task-type.datamart.databaseSelectionMethod": ""
+  "task-type.datamart.databaseSelectionMethod": "",
+  "task.landing-9gyd.databaseName": "",
+  "task.landing-9gyd.taskSchema": "",
+  "task.landing-9gyd.sourceConnection": "",
+  "task.landing-9gyd:null$_$dbo.database": "",
+  "task.landing-9gyd:null$_$dbo.schema": "",
+  "task.landing-9gyd:AutoNorthwind$_$dbo.database": "",
+  "task.landing-9gyd:AutoNorthwind$_$dbo.schema": ""
 }
