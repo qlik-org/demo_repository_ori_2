@@ -3,7 +3,7 @@
   "name": "dbo_Categories",
   "type": "LANDING",
   "tableDef": {
-    "name": "Categories2",
+    "name": "Categories",
     "dbSchema": "{{task.landing-x8_b:AutoNorthwind$_$dbo.schema}}",
     "dbName": "{{task.landing-x8_b:AutoNorthwind$_$dbo.database}}",
     "columns": [
