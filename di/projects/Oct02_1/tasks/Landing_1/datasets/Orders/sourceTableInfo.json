@@ -1,14 +1,14 @@
 {
-  "id": "$replicate$dbo_suppliers",
-  "name": "dbo_Suppliers",
+  "id": "$replicate$dbo_orders",
+  "name": "dbo_Orders",
   "type": "LANDING",
   "tableDef": {
-    "name": "Suppliers",
-    "dbSchema": "{{task.landing-qogj:AutoNorthwind$_$dbo.schema}}",
-    "dbName": "{{task.landing-qogj:AutoNorthwind$_$dbo.database}}",
+    "name": "Orders",
+    "dbSchema": "{{task.landing_1-qogt:null$_$dbo.schema}}",
+    "dbName": "{{task.landing_1-qogt:null$_$dbo.database}}",
     "columns": [
       {
-        "name": "SupplierID",
+        "name": "OrderID",
         "ordinal": 1,
         "nullable": false,
         "primaryKeyOrdinal": 1,
@@ -19,13 +19,118 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "supplierid",
+        "id": "orderid",
         "flags": "NONE"
       },
       {
-        "name": "CompanyName",
+        "name": "CustomerID",
         "ordinal": 2,
-        "nullable": false,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 5,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customerid",
+        "flags": "NONE"
+      },
+      {
+        "name": "EmployeeID",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "employeeid",
+        "flags": "NONE"
+      },
+      {
+        "name": "OrderDate",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "orderdate",
+        "flags": "NONE"
+      },
+      {
+        "name": "RequiredDate",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "requireddate",
+        "flags": "NONE"
+      },
+      {
+        "name": "ShippedDate",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "shippeddate",
+        "flags": "NONE"
+      },
+      {
+        "name": "ShipVia",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "shipvia",
+        "flags": "NONE"
+      },
+      {
+        "name": "Freight",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 19,
+          "scale": 4,
+          "originalTypeFull": ""
+        },
+        "id": "freight",
+        "flags": "NONE"
+      },
+      {
+        "name": "ShipName",
+        "ordinal": 9,
+        "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
           "type": "WSTRING",
@@ -34,42 +139,12 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "companyname",
+        "id": "shipname",
         "flags": "NONE"
       },
       {
-        "name": "ContactName",
-        "ordinal": 3,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "WSTRING",
-          "length": 30,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "contactname",
-        "flags": "NONE"
-      },
-      {
-        "name": "ContactTitle",
-        "ordinal": 4,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "WSTRING",
-          "length": 30,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "contacttitle",
-        "flags": "NONE"
-      },
-      {
-        "name": "Address",
-        "ordinal": 5,
+        "name": "ShipAddress",
+        "ordinal": 10,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -79,12 +154,12 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "address",
+        "id": "shipaddress",
         "flags": "NONE"
       },
       {
-        "name": "City",
-        "ordinal": 6,
+        "name": "ShipCity",
+        "ordinal": 11,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -94,12 +169,12 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "city",
+        "id": "shipcity",
         "flags": "NONE"
       },
       {
-        "name": "Region",
-        "ordinal": 7,
+        "name": "ShipRegion",
+        "ordinal": 12,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -109,12 +184,12 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "region",
+        "id": "shipregion",
         "flags": "NONE"
       },
       {
-        "name": "PostalCode",
-        "ordinal": 8,
+        "name": "ShipPostalCode",
+        "ordinal": 13,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -124,12 +199,12 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "postalcode",
+        "id": "shippostalcode",
         "flags": "NONE"
       },
       {
-        "name": "Country",
-        "ordinal": 9,
+        "name": "ShipCountry",
+        "ordinal": 14,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -139,52 +214,7 @@
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "country",
-        "flags": "NONE"
-      },
-      {
-        "name": "Phone",
-        "ordinal": 10,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "WSTRING",
-          "length": 24,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "phone",
-        "flags": "NONE"
-      },
-      {
-        "name": "Fax",
-        "ordinal": 11,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "WSTRING",
-          "length": 24,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "fax",
-        "flags": "NONE"
-      },
-      {
-        "name": "HomePage",
-        "ordinal": 12,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "NCLOB",
-          "length": 1073741823,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "homepage",
+        "id": "shipcountry",
         "flags": "NONE"
       }
     ],

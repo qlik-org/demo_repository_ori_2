@@ -1,25 +1,26 @@
 {
-  "id": "$replicate$dbo_suppliers",
-  "name": "dbo_Suppliers",
-  "type": "LANDING",
+  "id": "$registered_data$Oct02_1_b1_landing_1_customers",
+  "name": "Oct02_1_b1_landing_1_Customers",
+  "type": "EXTERNAL_TABLE",
   "tableDef": {
-    "name": "Suppliers",
-    "dbSchema": "{{task.landing-qogj:AutoNorthwind$_$dbo.schema}}",
-    "dbName": "{{task.landing-qogj:AutoNorthwind$_$dbo.database}}",
+    "name": "Customers",
+    "dbSchema": "{{task.registered_data-qogw:AutoDWH$_$Oct02_1_b1_landing_1.schema}}",
+    "dbName": "{{task.registered_data-qogw:AutoDWH$_$Oct02_1_b1_landing_1.database}}",
     "columns": [
       {
-        "name": "SupplierID",
+        "name": "CustomerID",
         "ordinal": 1,
         "nullable": false,
         "primaryKeyOrdinal": 1,
         "datatype": {
-          "type": "INT4",
-          "length": 0,
+          "type": "WSTRING",
+          "length": 5,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nchar",
+          "originalTypeFull": "NCHAR(5)"
         },
-        "id": "supplierid",
+        "id": "customerid",
         "flags": "NONE"
       },
       {
@@ -32,7 +33,8 @@
           "length": 40,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(40)"
         },
         "id": "companyname",
         "flags": "NONE"
@@ -47,7 +49,8 @@
           "length": 30,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(30)"
         },
         "id": "contactname",
         "flags": "NONE"
@@ -62,7 +65,8 @@
           "length": 30,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(30)"
         },
         "id": "contacttitle",
         "flags": "NONE"
@@ -77,7 +81,8 @@
           "length": 60,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(60)"
         },
         "id": "address",
         "flags": "NONE"
@@ -92,7 +97,8 @@
           "length": 15,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(15)"
         },
         "id": "city",
         "flags": "NONE"
@@ -107,7 +113,8 @@
           "length": 15,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(15)"
         },
         "id": "region",
         "flags": "NONE"
@@ -122,7 +129,8 @@
           "length": 10,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(10)"
         },
         "id": "postalcode",
         "flags": "NONE"
@@ -137,7 +145,8 @@
           "length": 15,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(15)"
         },
         "id": "country",
         "flags": "NONE"
@@ -152,7 +161,8 @@
           "length": 24,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(24)"
         },
         "id": "phone",
         "flags": "NONE"
@@ -167,24 +177,10 @@
           "length": 24,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": ""
+          "originalType": "nvarchar",
+          "originalTypeFull": "NVARCHAR(24)"
         },
         "id": "fax",
-        "flags": "NONE"
-      },
-      {
-        "name": "HomePage",
-        "ordinal": 12,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "NCLOB",
-          "length": 1073741823,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "homepage",
         "flags": "NONE"
       }
     ],

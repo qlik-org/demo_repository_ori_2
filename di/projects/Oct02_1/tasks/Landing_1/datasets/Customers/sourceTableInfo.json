@@ -1,25 +1,25 @@
 {
-  "id": "$replicate$dbo_suppliers",
-  "name": "dbo_Suppliers",
+  "id": "$replicate$dbo_customers",
+  "name": "dbo_Customers",
   "type": "LANDING",
   "tableDef": {
-    "name": "Suppliers",
-    "dbSchema": "{{task.landing-qogj:AutoNorthwind$_$dbo.schema}}",
-    "dbName": "{{task.landing-qogj:AutoNorthwind$_$dbo.database}}",
+    "name": "Customers",
+    "dbSchema": "{{task.landing_1-qogt:NORTHWIND_mini$_$dbo.schema}}",
+    "dbName": "{{task.landing_1-qogt:NORTHWIND_mini$_$dbo.database}}",
     "columns": [
       {
-        "name": "SupplierID",
+        "name": "CustomerID",
         "ordinal": 1,
         "nullable": false,
         "primaryKeyOrdinal": 1,
         "datatype": {
-          "type": "INT4",
-          "length": 0,
+          "type": "WSTRING",
+          "length": 5,
           "precision": 0,
           "scale": 0,
           "originalTypeFull": ""
         },
-        "id": "supplierid",
+        "id": "customerid",
         "flags": "NONE"
       },
       {
@@ -170,21 +170,6 @@
           "originalTypeFull": ""
         },
         "id": "fax",
-        "flags": "NONE"
-      },
-      {
-        "name": "HomePage",
-        "ordinal": 12,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "NCLOB",
-          "length": 1073741823,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": ""
-        },
-        "id": "homepage",
         "flags": "NONE"
       }
     ],
