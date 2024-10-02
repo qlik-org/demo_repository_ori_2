@@ -1,0 +1,22 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-qogj",
+      "name": "Categories",
+      "schema": "{{task.storage-qogl:null$_$null.schema}}",
+      "type": "NONE",
+      "sourceTableId": "categories"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-qogj",
+      "name": "Products",
+      "schema": "{{task.storage-qogl:null$_$null.schema}}",
+      "type": "NONE",
+      "sourceTableId": "products"
+    }
+  ]
+}
