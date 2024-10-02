@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "Order Details",
-    "dbSchema": "{{task.landing-qogj:AutoNorthwind$_$dbo.schema}}",
-    "dbName": "{{task.landing-qogj:AutoNorthwind$_$dbo.database}}",
+    "dbSchema": "{{task.landing_1-qogt:null$_$dbo.schema}}",
+    "dbName": "{{task.landing_1-qogt:null$_$dbo.database}}",
     "columns": [
       {
         "name": "OrderID",
