@@ -50,5 +50,11 @@
   "task.data_mart1-8qml.taskSchema": "",
   "task.data_mart1-8qml.warehouseName": "",
   "task.data_mart1-8qml.warehouseSelectionMethod": "",
-  "task.data_mart1-8qml:null$_$%.schemaPattern": ""
+  "task.data_mart1-8qml:null$_$%.schemaPattern": "",
+  "task.data_mart-iyru.databaseName": "",
+  "task.data_mart-iyru.internalSchema": "",
+  "task.data_mart-iyru.taskSchema": "",
+  "task.data_mart-iyru.warehouseName": "",
+  "task.data_mart-iyru.warehouseSelectionMethod": "",
+  "task.data_mart-iyru:null$_$%.schemaPattern": ""
 }
