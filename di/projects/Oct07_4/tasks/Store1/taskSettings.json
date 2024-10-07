@@ -8,15 +8,15 @@
     "dropColumn": "IGNORE",
     "truncateTable": "IGNORE"
   },
-  "artifactsLocation": {
-    "internalSchema": "{{task.store1-ulo7.internalSchema}}",
-    "taskSchema": "{{task.store1-ulo7.taskSchema}}",
-    "databaseName": "{{task.store1-ulo7.databaseName}}"
-  },
   "artifactsSettings": {
     "liveViewsEnabled": false,
     "historyEnabled": true,
     "artifactsPrefix": ""
+  },
+  "artifactsLocation": {
+    "internalSchema": "{{task.store1-ulo7.internalSchema}}",
+    "taskSchema": "{{task.store1-ulo7.taskSchema}}",
+    "databaseName": "{{task.store1-ulo7.databaseName}}"
   },
   "taskRuntime": {
     "tableUpdateConcurrency": 10,

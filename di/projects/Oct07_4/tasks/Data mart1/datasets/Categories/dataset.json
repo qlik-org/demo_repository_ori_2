@@ -1,0 +1,21 @@
+{
+  "id": "categories-syth",
+  "name": "Categories",
+  "type": "FACT",
+  "inputDatasets": [
+    {
+      "datasetId": "categories-sytd",
+      "name": "Categories",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "transform1_materialized-sytb"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "ON",
+    "watermarkIncrementalSettings": "INHERIT"
+  }
+}
