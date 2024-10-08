@@ -22,6 +22,13 @@
       "name": "Orders",
       "type": "NONE",
       "sourceTableId": "orders"
+    },
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "landing-djvo",
+      "name": "Shippers",
+      "type": "NONE",
+      "sourceTableId": "shippers"
     }
   ]
 }
