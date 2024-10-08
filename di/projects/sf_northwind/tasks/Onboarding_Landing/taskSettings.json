@@ -34,8 +34,8 @@
   },
   "landingDwSettings": {
     "landingArtifactsLocation": {
-      "dataAssetSchema": "testonboarding_landing",
-      "database": "ORI"
+      "dataAssetSchema": "{{task.onboarding_landing-umkw.taskSchema}}",
+      "database": "{{task.onboarding_landing-umkw.databaseName}}"
     }
   },
   "landingStorageSettings": {
@@ -206,5 +206,14 @@
       "consistencyTimeout": 600,
       "commitRate": 10000
     }
+  },
+  "ddlHandlingPolicy": {
+    "addColumn": "APPLY_TO_TARGET",
+    "changeColumnType": "IGNORE",
+    "renameTable": "IGNORE",
+    "renameColumn": "IGNORE",
+    "dropTable": "IGNORE",
+    "dropColumn": "IGNORE",
+    "truncateTable": "IGNORE"
   }
 }

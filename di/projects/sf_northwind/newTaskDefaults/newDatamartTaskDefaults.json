@@ -4,8 +4,8 @@
   "taskRuntime": {
     "tableUpdateConcurrency": 10,
     "warehouseSelection": {
-      "warehouseName": "${task-type.datamart.warehouseName}",
-      "selectionMethod": "${task-type.datamart.warehouseSelectionMethod}"
+      "warehouseName": "{{task-type.datamart.warehouseName}}",
+      "selectionMethod": "{{task-type.datamart.warehouseSelectionMethod}}"
     }
   },
   "taskRunSchedule": {
@@ -13,7 +13,7 @@
     "schedulingType": "EVENT_BASED"
   },
   "databaseSelection": {
-    "databaseName": "${task-type.datamart.databaseName}",
-    "selectionMethod": "${task-type.datamart.databaseSelectionMethod}"
+    "databaseName": "{{task-type.datamart.databaseName}}",
+    "selectionMethod": "{{task-type.datamart.databaseSelectionMethod}}"
   }
 }

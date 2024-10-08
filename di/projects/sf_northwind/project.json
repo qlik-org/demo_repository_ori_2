@@ -1,9 +1,9 @@
 {
   "exportVersion": "1.0",
-  "name": "${projectName}",
+  "name": "{{projectName}}",
   "space": "ref{project.current.spaceId}",
   "type": "DATA_PIPELINE",
   "description": "test_1",
-  "platformType": "${platformType}",
-  "platformConnection": "${platformConnection}"
+  "platformType": "{{platformType}}",
+  "platformConnection": "{{platformConnection}}"
 }

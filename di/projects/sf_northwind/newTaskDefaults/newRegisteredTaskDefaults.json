@@ -10,7 +10,7 @@
     "publishDatasets": false
   },
   "databaseSelection": {
-    "databaseName": "${task-type.registered.databaseName}",
-    "selectionMethod": "${task-type.registered.databaseSelectionMethod}"
+    "databaseName": "{{task-type.registered.databaseName}}",
+    "selectionMethod": "{{task-type.registered.databaseSelectionMethod}}"
   }
 }

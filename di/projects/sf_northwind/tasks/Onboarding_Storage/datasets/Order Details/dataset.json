@@ -6,7 +6,7 @@
     {
       "datasetId": "order_details",
       "name": "Order Details",
-      "projectId": "${ref(project.current.projectId)}",
+      "projectId": "{{ref(project.current.projectId)}}",
       "taskId": "onboarding_landing-umkw"
     }
   ],

@@ -1,10 +1,10 @@
 {
   "includePatterns": [
     {
-      "sourceProject": "${ref(project.current.projectId)}",
+      "sourceProject": "{{ref(project.current.projectId)}}",
       "sourceTask": "onboarding_landing-umkw",
       "tablePattern": "%",
-      "schemaPattern": "${task.onboarding_storage-umkx:null$_$%.schemaPattern}",
+      "schemaPattern": "{{task.onboarding_storage-umkx:null$_$%.schemaPattern}}",
       "type": "TABLE"
     }
   ],

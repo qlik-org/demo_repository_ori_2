@@ -4,8 +4,8 @@
   "taskRuntime": {
     "tableUpdateConcurrency": 10,
     "warehouseSelection": {
-      "warehouseName": "${task-type.storage.warehouseName}",
-      "selectionMethod": "${task-type.storage.warehouseSelectionMethod}"
+      "warehouseName": "{{task-type.storage.warehouseName}}",
+      "selectionMethod": "{{task-type.storage.warehouseSelectionMethod}}"
     }
   },
   "taskRunSchedule": {
@@ -13,7 +13,7 @@
     "schedulingType": "TIME_BASED"
   },
   "databaseSelection": {
-    "databaseName": "${task-type.storage.databaseName}",
-    "selectionMethod": "${task-type.storage.databaseSelectionMethod}"
+    "databaseName": "{{task-type.storage.databaseName}}",
+    "selectionMethod": "{{task-type.storage.databaseSelectionMethod}}"
   }
 }

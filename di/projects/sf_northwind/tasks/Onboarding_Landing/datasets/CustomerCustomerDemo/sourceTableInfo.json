@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "CustomerCustomerDemo",
-    "dbSchema": "${task.onboarding_landing-umkw:null$_$dbo.schema}",
-    "dbName": "${task.onboarding_landing-umkw:null$_$dbo.database}",
+    "dbSchema": "{{task.onboarding_landing-umkw:null$_$dbo.schema}}",
+    "dbName": "{{task.onboarding_landing-umkw:null$_$dbo.database}}",
     "secureQri": "",
     "fullLoadOnly": false
   }
