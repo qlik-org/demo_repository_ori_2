@@ -11,6 +11,9 @@
   "artifactsSettings": {
     "liveViewsEnabled": true,
     "historyEnabled": true,
+    "materialized": false,
+    "changeTablesEnabled": true,
+    "currentTableSuffix": "__current",
     "artifactsPrefix": ""
   },
   "artifactsLocation": {
@@ -21,8 +24,7 @@
   "taskRuntime": {
     "tableUpdateConcurrency": 10,
     "warehouseSelection": {
-      "warehouseName": "{{task.onboarding_storage-umkx.warehouseName}}",
-      "selectionMethod": "{{task.onboarding_storage-umkx.warehouseSelectionMethod}}"
+      "warehouseName": "{{task.onboarding_storage-umkx.warehouseName}}"
     }
   }
 }
