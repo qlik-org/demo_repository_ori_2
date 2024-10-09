@@ -32,7 +32,6 @@
   "task.to_export_storage-tdxb.internalSchema": "",
   "task.to_export_storage-tdxb.taskSchema": "",
   "task.to_export_storage-tdxb.warehouseName": "",
-  "task.to_export_storage-tdxb:null$_$%.schemaPattern": "",
   "task.to_import_transform-tdxf.databaseName": "",
   "task.to_import_transform-tdxf.internalSchema": "",
   "task.to_import_transform-tdxf.taskSchema": "",
@@ -41,6 +40,5 @@
   "task.data_mart-pguh.databaseName": "",
   "task.data_mart-pguh.internalSchema": "",
   "task.data_mart-pguh.taskSchema": "",
-  "task.data_mart-pguh.warehouseName": "",
-  "task.data_mart-pguh:null$_$%.schemaPattern": ""
+  "task.data_mart-pguh.warehouseName": ""
 }
