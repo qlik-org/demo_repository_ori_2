@@ -1,0 +1,14 @@
+{
+  "sourceConnection": "{{task.to_export_landing-tdxa.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.to_export_landing-tdxa:null$_$dbo.database}}",
+      "name": "Categories",
+      "schema": "{{task.to_export_landing-tdxa:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_categories"
+    }
+  ]
+}
