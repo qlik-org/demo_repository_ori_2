@@ -295,7 +295,7 @@
         "dimension": {
           "type": "NONE",
           "entityId": "customers-ijhi",
-          "projectId": "67066b9af262bfb3553edde1",
+          "projectId": "{{ref(project.current.projectId)}}",
           "dataAppId": "dm1--3id"
         },
         "dimensionRelationshipPath": "orders_customers_relation-ijhd",
@@ -307,7 +307,7 @@
         "dimension": {
           "type": "NONE",
           "entityId": "employees-ijhj",
-          "projectId": "67066b9af262bfb3553edde1",
+          "projectId": "{{ref(project.current.projectId)}}",
           "dataAppId": "dm1--3id"
         },
         "dimensionRelationshipPath": "orders_employees_relation-ijhe",
@@ -319,7 +319,7 @@
         "dimension": {
           "type": "NONE",
           "entityId": "employees-ijhj",
-          "projectId": "67066b9af262bfb3553edde1",
+          "projectId": "{{ref(project.current.projectId)}}",
           "dataAppId": "dm1--3id"
         },
         "dimensionRelationshipPath": "orders_employees_relation-ijhe$_$employees_employees--3ic",
@@ -331,7 +331,7 @@
         "dimension": {
           "type": "NONE",
           "entityId": "shippers--3if",
-          "projectId": "67066b9af262bfb3553edde1",
+          "projectId": "{{ref(project.current.projectId)}}",
           "dataAppId": "dm1--3id"
         },
         "dimensionRelationshipPath": "orders_shippers-ijhg",
