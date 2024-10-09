@@ -37,5 +37,10 @@
   "task.to_import_transform-tdxf.internalSchema": "",
   "task.to_import_transform-tdxf.taskSchema": "",
   "task.to_import_transform-tdxf.warehouseName": "",
-  "task.to_import_transform-tdxf:null$_$%.schemaPattern": ""
+  "task.to_import_transform-tdxf:null$_$%.schemaPattern": "",
+  "task.data_mart-pguh.databaseName": "",
+  "task.data_mart-pguh.internalSchema": "",
+  "task.data_mart-pguh.taskSchema": "",
+  "task.data_mart-pguh.warehouseName": "",
+  "task.data_mart-pguh:null$_$%.schemaPattern": ""
 }
