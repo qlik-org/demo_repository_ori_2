@@ -1,13 +1,13 @@
 {
-  "id": "664f3b49-00d9-4333-a852-18155896b6d3",
+  "id": "f2b2e0be-02c3-4cdb-bde2-a8af32bf26b1",
   "description": "",
   "name": "products_flow",
   "modelVersion": "1.0.0",
-  "createdAt": "2024-10-10T13:34:30.124Z",
+  "createdAt": "2024-10-10T13:48:36.951Z",
   "createdBy": "66ab752551e79fb8580145ee",
-  "updatedAt": "2024-10-10T13:37:27.084Z",
+  "updatedAt": "2024-10-10T13:48:36.951Z",
   "updatedBy": "66ab752551e79fb8580145ee",
-  "checksum": "9bdbc072-d6b9-4135-a4ba-63eaabd096ee",
+  "checksum": "9644211f-2594-420e-8e62-fd8d8fdaef04",
   "graph": {
     "nodes": [
       {
