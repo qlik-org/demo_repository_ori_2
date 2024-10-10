@@ -1,14 +1,8 @@
 {
-  "id": "order_details-pgu7",
-  "name": "Order Details",
-  "type": "FACT",
+  "id": "orders-eatr",
+  "name": "Orders",
+  "type": "DIMENSION",
   "inputDatasets": [
-    {
-      "datasetId": "order_details-pguz",
-      "name": "Order Details",
-      "projectId": "{{ref(project.current.projectId)}}",
-      "taskId": "to_import_transform-tdxf"
-    },
     {
       "datasetId": "orders-pgu1",
       "name": "Orders",
@@ -25,14 +19,12 @@
     "watermarkIncrementalSettings": "INHERIT"
   },
   "tableDef": {
-    "name": "Order Details",
-    "dbSchema": "data_mart",
-    "dbName": "AAA_WASEEM_DB",
+    "name": "Orders",
     "columns": [
       {
         "name": "OrderID",
         "ordinal": 1,
-        "nullable": false,
+        "nullable": true,
         "primaryKeyOrdinal": 1,
         "datatype": {
           "type": "INT4",
@@ -48,80 +40,8 @@
         }
       },
       {
-        "name": "ProductID",
-        "ordinal": 2,
-        "nullable": false,
-        "primaryKeyOrdinal": 2,
-        "datatype": {
-          "type": "INT4",
-          "length": 0,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": "INTEGER"
-        },
-        "id": "productid",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "UnitPrice",
-        "ordinal": 3,
-        "nullable": false,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "NUMERIC",
-          "length": 0,
-          "precision": 19,
-          "scale": 4,
-          "originalTypeFull": "NUMBER(19,4)"
-        },
-        "id": "unitprice",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "Quantity",
-        "ordinal": 4,
-        "nullable": false,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "INT2",
-          "length": 0,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": "SMALLINT"
-        },
-        "id": "quantity",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "Discount",
-        "ordinal": 5,
-        "nullable": false,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "REAL4",
-          "length": 0,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": "FLOAT4"
-        },
-        "id": "discount",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
         "name": "CustomerID",
-        "ordinal": 6,
+        "ordinal": 2,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -131,7 +51,7 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(5)"
         },
-        "id": "order_details_orders_relation-pgu3$_$customerid",
+        "id": "customerid",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -139,6 +59,78 @@
       },
       {
         "name": "EmployeeID",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "INTEGER"
+        },
+        "id": "employeeid",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "OrderDate",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": "TIMESTAMP_NTZ(3)"
+        },
+        "id": "orderdate",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "RequiredDate",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": "TIMESTAMP_NTZ(3)"
+        },
+        "id": "requireddate",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ShippedDate",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 3,
+          "scale": 0,
+          "originalTypeFull": "TIMESTAMP_NTZ(3)"
+        },
+        "id": "shippeddate",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ShipVia",
         "ordinal": 7,
         "nullable": true,
         "primaryKeyOrdinal": 0,
@@ -149,79 +141,7 @@
           "scale": 0,
           "originalTypeFull": "INTEGER"
         },
-        "id": "order_details_orders_relation-pgu3$_$employeeid",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "OrderDate",
-        "ordinal": 8,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "DATETIME",
-          "length": 0,
-          "precision": 3,
-          "scale": 0,
-          "originalTypeFull": "TIMESTAMP_NTZ(3)"
-        },
-        "id": "order_details_orders_relation-pgu3$_$orderdate",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "RequiredDate",
-        "ordinal": 9,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "DATETIME",
-          "length": 0,
-          "precision": 3,
-          "scale": 0,
-          "originalTypeFull": "TIMESTAMP_NTZ(3)"
-        },
-        "id": "order_details_orders_relation-pgu3$_$requireddate",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "ShippedDate",
-        "ordinal": 10,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "DATETIME",
-          "length": 0,
-          "precision": 3,
-          "scale": 0,
-          "originalTypeFull": "TIMESTAMP_NTZ(3)"
-        },
-        "id": "order_details_orders_relation-pgu3$_$shippeddate",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
-      },
-      {
-        "name": "ShipVia",
-        "ordinal": 11,
-        "nullable": true,
-        "primaryKeyOrdinal": 0,
-        "datatype": {
-          "type": "INT4",
-          "length": 0,
-          "precision": 0,
-          "scale": 0,
-          "originalTypeFull": "INTEGER"
-        },
-        "id": "order_details_orders_relation-pgu3$_$shipvia",
+        "id": "shipvia",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -229,7 +149,7 @@
       },
       {
         "name": "Freight",
-        "ordinal": 12,
+        "ordinal": 8,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -239,7 +159,7 @@
           "scale": 4,
           "originalTypeFull": "NUMBER(19,4)"
         },
-        "id": "order_details_orders_relation-pgu3$_$freight",
+        "id": "freight",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -247,7 +167,7 @@
       },
       {
         "name": "ShipName",
-        "ordinal": 13,
+        "ordinal": 9,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -257,7 +177,7 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(40)"
         },
-        "id": "order_details_orders_relation-pgu3$_$shipname",
+        "id": "shipname",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -265,7 +185,7 @@
       },
       {
         "name": "ShipAddress",
-        "ordinal": 14,
+        "ordinal": 10,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -275,7 +195,7 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(60)"
         },
-        "id": "order_details_orders_relation-pgu3$_$shipaddress",
+        "id": "shipaddress",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -283,7 +203,7 @@
       },
       {
         "name": "ShipCity",
-        "ordinal": 15,
+        "ordinal": 11,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -293,7 +213,7 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(15)"
         },
-        "id": "order_details_orders_relation-pgu3$_$shipcity",
+        "id": "shipcity",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -301,7 +221,7 @@
       },
       {
         "name": "ShipRegion",
-        "ordinal": 16,
+        "ordinal": 12,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -311,7 +231,7 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(15)"
         },
-        "id": "order_details_orders_relation-pgu3$_$shipregion",
+        "id": "shipregion",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -319,7 +239,7 @@
       },
       {
         "name": "ShipPostalCode",
-        "ordinal": 17,
+        "ordinal": 13,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -329,7 +249,7 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(10)"
         },
-        "id": "order_details_orders_relation-pgu3$_$shippostalcode",
+        "id": "shippostalcode",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
@@ -337,7 +257,7 @@
       },
       {
         "name": "ShipCountry",
-        "ordinal": 18,
+        "ordinal": 14,
         "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
@@ -347,43 +267,26 @@
           "scale": 0,
           "originalTypeFull": "NVARCHAR(15)"
         },
-        "id": "order_details_orders_relation-pgu3$_$shipcountry",
+        "id": "shipcountry",
         "flags": "NONE",
         "properties": {
           "documentMetadata": false
         }
       }
     ],
-    "entityId": "order_details-pgu7",
+    "entityId": "",
     "secureQri": "",
     "fullLoadOnly": false
   },
-  "factDatasetSettings": {
-    "type": "TRANSACTIONAL",
+  "dimensionDatasetSettings": {
+    "type": "TYPE1",
     "rootDataEntityId": {
       "type": "NONE",
-      "entityId": "order_details-pguz",
-      "name": "Order Details",
+      "entityId": "orders-pgu1",
+      "name": "Orders",
       "projectId": "{{ref(project.current.projectId)}}",
       "dataAppId": "to_import_transform-tdxf"
     },
-    "entityRelationshipPath": [
-      "order_details_orders_relation-pgu3"
-    ],
-    "factDimension": [
-      {
-        "name": "Orders",
-        "dimension": {
-          "type": "NONE",
-          "entityId": "orders-eatr",
-          "projectId": "{{ref(project.current.projectId)}}",
-          "dataAppId": "data_mart-pguh"
-        },
-        "dimensionRelationshipPath": "order_details_orders_relation-pgu3",
-        "dimensionRelationshipPathDisplayName": "Order_Details_Orders_relation",
-        "dimensionRelationshipPathShortName": ""
-      }
-    ],
     "mapping": {
       "columns": [
         {
@@ -400,58 +303,6 @@
           }
         },
         {
-          "columnName": "ProductID",
-          "type": "ROOT_PK",
-          "expression": {
-            "expressionStatement": "${ProductID}",
-            "alias": [
-              {
-                "name": "ProductID",
-                "value": "ProductID"
-              }
-            ]
-          }
-        },
-        {
-          "columnName": "UnitPrice",
-          "type": "NONE",
-          "expression": {
-            "expressionStatement": "${UnitPrice}",
-            "alias": [
-              {
-                "name": "UnitPrice",
-                "value": "UnitPrice"
-              }
-            ]
-          }
-        },
-        {
-          "columnName": "Quantity",
-          "type": "NONE",
-          "expression": {
-            "expressionStatement": "${Quantity}",
-            "alias": [
-              {
-                "name": "Quantity",
-                "value": "Quantity"
-              }
-            ]
-          }
-        },
-        {
-          "columnName": "Discount",
-          "type": "NONE",
-          "expression": {
-            "expressionStatement": "${Discount}",
-            "alias": [
-              {
-                "name": "Discount",
-                "value": "Discount"
-              }
-            ]
-          }
-        },
-        {
           "columnName": "CustomerID",
           "type": "NONE",
           "expression": {
@@ -459,7 +310,7 @@
             "alias": [
               {
                 "name": "CustomerID",
-                "value": "order_details_orders_relation-pgu3$_$CustomerID"
+                "value": "CustomerID"
               }
             ]
           }
@@ -472,7 +323,7 @@
             "alias": [
               {
                 "name": "EmployeeID",
-                "value": "order_details_orders_relation-pgu3$_$EmployeeID"
+                "value": "EmployeeID"
               }
             ]
           }
@@ -485,7 +336,7 @@
             "alias": [
               {
                 "name": "OrderDate",
-                "value": "order_details_orders_relation-pgu3$_$OrderDate"
+                "value": "OrderDate"
               }
             ]
           }
@@ -498,7 +349,7 @@
             "alias": [
               {
                 "name": "RequiredDate",
-                "value": "order_details_orders_relation-pgu3$_$RequiredDate"
+                "value": "RequiredDate"
               }
             ]
           }
@@ -511,7 +362,7 @@
             "alias": [
               {
                 "name": "ShippedDate",
-                "value": "order_details_orders_relation-pgu3$_$ShippedDate"
+                "value": "ShippedDate"
               }
             ]
           }
@@ -524,7 +375,7 @@
             "alias": [
               {
                 "name": "ShipVia",
-                "value": "order_details_orders_relation-pgu3$_$ShipVia"
+                "value": "ShipVia"
               }
             ]
           }
@@ -537,7 +388,7 @@
             "alias": [
               {
                 "name": "Freight",
-                "value": "order_details_orders_relation-pgu3$_$Freight"
+                "value": "Freight"
               }
             ]
           }
@@ -550,7 +401,7 @@
             "alias": [
               {
                 "name": "ShipName",
-                "value": "order_details_orders_relation-pgu3$_$ShipName"
+                "value": "ShipName"
               }
             ]
           }
@@ -563,7 +414,7 @@
             "alias": [
               {
                 "name": "ShipAddress",
-                "value": "order_details_orders_relation-pgu3$_$ShipAddress"
+                "value": "ShipAddress"
               }
             ]
           }
@@ -576,7 +427,7 @@
             "alias": [
               {
                 "name": "ShipCity",
-                "value": "order_details_orders_relation-pgu3$_$ShipCity"
+                "value": "ShipCity"
               }
             ]
           }
@@ -589,7 +440,7 @@
             "alias": [
               {
                 "name": "ShipRegion",
-                "value": "order_details_orders_relation-pgu3$_$ShipRegion"
+                "value": "ShipRegion"
               }
             ]
           }
@@ -602,7 +453,7 @@
             "alias": [
               {
                 "name": "ShipPostalCode",
-                "value": "order_details_orders_relation-pgu3$_$ShipPostalCode"
+                "value": "ShipPostalCode"
               }
             ]
           }
@@ -615,13 +466,14 @@
             "alias": [
               {
                 "name": "ShipCountry",
-                "value": "order_details_orders_relation-pgu3$_$ShipCountry"
+                "value": "ShipCountry"
               }
             ]
           }
         }
       ]
     },
+    "fullyType2Sources": false,
     "subtype": "MODEL_BASED"
   }
 }
