@@ -31,5 +31,10 @@
   "task.storage-i8ax.databaseName": "",
   "task.storage-i8ax.internalSchema": "",
   "task.storage-i8ax.taskSchema": "",
-  "task.storage-i8ax.warehouseName": ""
+  "task.storage-i8ax.warehouseName": "",
+  "task.transform-6wyh.databaseName": "",
+  "task.transform-6wyh.internalSchema": "",
+  "task.transform-6wyh.taskSchema": "",
+  "task.transform-6wyh.warehouseName": "",
+  "task.transform-6wyh:null$_$%.schemaPattern": ""
 }
