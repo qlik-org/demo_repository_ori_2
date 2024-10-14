@@ -214,6 +214,7 @@
     "renameColumn": "IGNORE",
     "dropTable": "IGNORE",
     "dropColumn": "IGNORE",
-    "truncateTable": "IGNORE"
+    "truncateTable": "IGNORE",
+    "createTable": "APPLY_TO_TARGET"
   }
 }
