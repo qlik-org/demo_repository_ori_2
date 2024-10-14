@@ -1,8 +1,13 @@
 {
   "enabled": true,
-  "schedulingType": "EVENT_BASED",
+  "schedulingType": "TIME_BASED",
   "timeBasedScheduling": {
-    "schedule": []
+    "schedule": [
+      "RRULE:FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=14;BYMONTH=10;BYHOUR=19;BYMINUTE=50;BYSECOND=0"
+    ],
+    "startDateTime": "2024-10-14T19:50:00.000Z",
+    "endDateTime": "0001-01-01T00:00:00.000Z",
+    "timezone": "Etc/UTC"
   },
   "eventBasedScheduling": {
     "eventSchedulingType": "ANY_INPUT_TASK",
