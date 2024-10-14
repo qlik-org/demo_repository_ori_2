@@ -37,7 +37,7 @@
         "flags": "NONE"
       },
       {
-        "name": "first_name",
+        "name": "first_name_1014",
         "ordinal": 2,
         "nullable": false,
         "primaryKeyOrdinal": 0,
@@ -49,7 +49,10 @@
           "originalTypeFull": "NVARCHAR(45)"
         },
         "id": "first_name",
-        "flags": "NONE"
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
       },
       {
         "name": "last_name_1014",
