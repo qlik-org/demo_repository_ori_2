@@ -52,7 +52,7 @@
         "flags": "NONE"
       },
       {
-        "name": "last_name",
+        "name": "last_name_1014",
         "ordinal": 3,
         "nullable": false,
         "primaryKeyOrdinal": 0,
@@ -64,22 +64,27 @@
           "originalTypeFull": "NVARCHAR(45)"
         },
         "id": "last_name",
-        "flags": "NONE"
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
       },
       {
         "name": "last_update",
         "ordinal": 4,
-        "nullable": false,
+        "nullable": true,
         "primaryKeyOrdinal": 0,
         "datatype": {
-          "type": "DATETIME",
-          "length": 0,
+          "type": "STRING",
+          "length": 50,
           "precision": 0,
-          "scale": 0,
-          "originalTypeFull": "TIMESTAMP_NTZ(0)"
+          "scale": 0
         },
         "id": "last_update",
-        "flags": "NONE"
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
       }
     ],
     "secureQri": "",
