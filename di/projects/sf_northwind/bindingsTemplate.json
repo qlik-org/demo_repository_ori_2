@@ -30,5 +30,10 @@
   "task.onboarding_storage-umkx.internalSchema": "",
   "task.onboarding_storage-umkx.taskSchema": "",
   "task.onboarding_storage-umkx.warehouseName": "",
-  "task.onboarding_storage-umkx:null$_$%.schemaPattern": ""
+  "task.onboarding_storage-umkx:null$_$%.schemaPattern": "",
+  "task.data_mart-02jd.databaseName": "",
+  "task.data_mart-02jd.internalSchema": "",
+  "task.data_mart-02jd.taskSchema": "",
+  "task.data_mart-02jd.warehouseName": "",
+  "task.data_mart-02jd:null$_$%.schemaPattern": ""
 }
