@@ -1,0 +1,18 @@
+{
+  "id": "categories-nzlv",
+  "name": "Categories",
+  "type": "DIMENSION",
+  "inputDatasets": [],
+  "dimensionDatasetSettings": {
+    "type": "TYPE2",
+    "rootDataEntityId": {
+      "type": "NONE",
+      "entityId": "categories-nzi8",
+      "name": "Categories",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "dataAppId": "transform_2-b-ap"
+    },
+    "fullyType2Sources": false,
+    "subtype": "NONE"
+  }
+}
