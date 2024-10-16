@@ -33,18 +33,6 @@
         "dimensionRelationshipPath": "a_orders_a_employees_relation-kaf8",
         "dimensionRelationshipPathDisplayName": "a_Orders_a_Employees_relation",
         "dimensionRelationshipPathShortName": ""
-      },
-      {
-        "name": "a_Shippers",
-        "dimension": {
-          "type": "NONE",
-          "entityId": "a_shippers-kaf5",
-          "projectId": "{{ref(project.current.projectId)}}",
-          "dataAppId": "dm_non_valid-kafz"
-        },
-        "dimensionRelationshipPath": "orders_shippers-b-a_",
-        "dimensionRelationshipPathDisplayName": "Orders_Shippers",
-        "dimensionRelationshipPathShortName": "Ord_Ship"
       }
     ],
     "transactionalDate": {
