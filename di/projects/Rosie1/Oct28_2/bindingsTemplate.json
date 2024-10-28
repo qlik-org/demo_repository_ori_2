@@ -37,5 +37,21 @@
   "task.landing-eqe_:null$_$dbo.database": "",
   "task.landing-eqe_:null$_$dbo.schema": "",
   "task.landing-eqe_:AutoNorthwind$_$dbo.database": "",
-  "task.landing-eqe_:AutoNorthwind$_$dbo.schema": ""
+  "task.landing-eqe_:AutoNorthwind$_$dbo.schema": "",
+  "task.storage-83xc.databaseName": "",
+  "task.storage-83xc.internalSchema": "",
+  "task.storage-83xc.taskSchema": "",
+  "task.storage-83xc.warehouseName": "",
+  "task.landing_1-c53u.databaseName": "",
+  "task.landing_1-c53u.taskSchema": "",
+  "task.landing_1-c53u.sourceConnection": "",
+  "task.landing_1-c53u:null$_$dbo.database": "",
+  "task.landing_1-c53u:null$_$dbo.schema": "",
+  "task.landing_1-c53u:AutoNorthwind$_$dbo.database": "",
+  "task.landing_1-c53u:AutoNorthwind$_$dbo.schema": "",
+  "task.storage_1-c53w.databaseName": "",
+  "task.storage_1-c53w.internalSchema": "",
+  "task.storage_1-c53w.taskSchema": "",
+  "task.storage_1-c53w.warehouseName": "",
+  "task.storage_1-c53w:null$_$%.schemaPattern": ""
 }
