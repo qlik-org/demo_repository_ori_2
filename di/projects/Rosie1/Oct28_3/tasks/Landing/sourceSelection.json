@@ -1,0 +1,21 @@
+{
+  "sourceConnection": "{{task.landing-c53c.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.landing-c53c:null$_$dbo.database}}",
+      "name": "Order Details",
+      "schema": "{{task.landing-c53c:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_order_details"
+    },
+    {
+      "database": "{{task.landing-c53c:null$_$dbo.database}}",
+      "name": "Orders",
+      "schema": "{{task.landing-c53c:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_orders"
+    }
+  ]
+}
