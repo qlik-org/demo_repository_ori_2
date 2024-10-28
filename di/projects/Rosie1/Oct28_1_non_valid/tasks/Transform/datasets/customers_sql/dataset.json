@@ -26,7 +26,7 @@
   },
   "customDatasetSettings": {
     "customSql": {
-      "expressionStatement": "select * from ${Customers}\n{{^QW #QLIK_FUNC_IF Q_RUN_INCREMENTAL}}\nwhere \u0022CustomerID\u0022 \u003E 10\n{{/QLIK_FUNC_IF}}",
+      "expressionStatement": "select * from ${Customers}\n{{^QW #QLIK_FUNC_IF Q_RUN_INCREMENTAL}}\nwhere \u0022CustomerID\u0022 \u003E 10\n{{AAA}}",
       "alias": [
         {
           "name": "Customers",
