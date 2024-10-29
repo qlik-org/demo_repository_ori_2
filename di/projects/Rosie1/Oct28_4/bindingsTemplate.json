@@ -30,5 +30,12 @@
   "task.onboarding_storage-c53i.internalSchema": "",
   "task.onboarding_storage-c53i.taskSchema": "",
   "task.onboarding_storage-c53i.warehouseName": "",
-  "task.onboarding_storage-c53i:null$_$%.schemaPattern": ""
+  "task.onboarding_storage-c53i:null$_$%.schemaPattern": "",
+  "task.landing-nzoo.databaseName": "",
+  "task.landing-nzoo.taskSchema": "",
+  "task.landing-nzoo.sourceConnection": "",
+  "task.landing-nzoo:null$_$dbo.database": "",
+  "task.landing-nzoo:null$_$dbo.schema": "",
+  "task.landing-nzoo:AutoNorthwind$_$dbo.database": "",
+  "task.landing-nzoo:AutoNorthwind$_$dbo.schema": ""
 }
