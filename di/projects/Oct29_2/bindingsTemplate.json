@@ -32,10 +32,5 @@
   "task.onboarding_storage-g7n8.internalSchema": "",
   "task.onboarding_storage-g7n8.taskSchema": "",
   "task.onboarding_storage-g7n8.warehouseName": "",
-  "task.onboarding_storage-g7n8:null$_$%.schemaPattern": "",
-  "task.transform-g7ob.databaseName": "",
-  "task.transform-g7ob.internalSchema": "",
-  "task.transform-g7ob.taskSchema": "",
-  "task.transform-g7ob.warehouseName": "",
-  "task.transform-g7ob:null$_$%.schemaPattern": ""
+  "task.onboarding_storage-g7n8:null$_$%.schemaPattern": ""
 }
