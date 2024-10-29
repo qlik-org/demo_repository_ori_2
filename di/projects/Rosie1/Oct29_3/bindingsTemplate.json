@@ -31,5 +31,6 @@
   "task.storage-mduo.databaseName": "",
   "task.storage-mduo.internalSchema": "",
   "task.storage-mduo.taskSchema": "",
-  "task.storage-mduo.warehouseName": ""
+  "task.storage-mduo.warehouseName": "",
+  "task.storage-mduo:null$_$%.schemaPattern": ""
 }

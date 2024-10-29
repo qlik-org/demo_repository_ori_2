@@ -1,20 +1,13 @@
 {
-  "includePatterns": [],
-  "excludePatterns": [],
-  "explicitlySelected": [
+  "includePatterns": [
     {
       "sourceProject": "{{ref(project.current.projectId)}}",
       "sourceTask": "landing-mdun",
-      "name": "Categories",
-      "type": "NONE",
-      "sourceTableId": "categories"
-    },
-    {
-      "sourceProject": "{{ref(project.current.projectId)}}",
-      "sourceTask": "landing-mdun",
-      "name": "Products",
-      "type": "NONE",
-      "sourceTableId": "products"
+      "tablePattern": "%",
+      "schemaPattern": "{{task.storage-mduo:null$_$%.schemaPattern}}",
+      "type": "TABLE"
     }
-  ]
+  ],
+  "excludePatterns": [],
+  "explicitlySelected": []
 }
