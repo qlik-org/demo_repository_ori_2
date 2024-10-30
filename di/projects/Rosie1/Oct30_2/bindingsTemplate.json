@@ -44,5 +44,10 @@
   "task.storage-8isj.internalSchema": "",
   "task.storage-8isj.taskSchema": "",
   "task.storage-8isj.warehouseName": "",
-  "task.storage-8isj:null$_$%.schemaPattern": ""
+  "task.storage-8isj:null$_$%.schemaPattern": "",
+  "task.transform-8isq.databaseName": "",
+  "task.transform-8isq.internalSchema": "",
+  "task.transform-8isq.taskSchema": "",
+  "task.transform-8isq.warehouseName": "",
+  "task.transform-8isq:null$_$%.schemaPattern": ""
 }
