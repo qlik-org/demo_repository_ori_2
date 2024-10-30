@@ -1,25 +1,11 @@
 {
-  "id": "products-8isu",
-  "name": "Products",
-  "type": "TRANSFORM_MODEL_BASED",
-  "inputDatasets": [
-    {
-      "datasetId": "products-nywu",
-      "name": "Products",
-      "projectId": "{{ref(project.current.projectId)}}",
-      "taskId": "onboarding_storage-nywr"
-    }
-  ],
-  "datasetAttributes": {
-    "materialized": "INHERIT",
-    "hasHistory": "INHERIT",
-    "hasLiveViews": "OFF",
-    "hasChanges": "INHERIT",
-    "hasStandardViewsWithHeaders": "INHERIT",
-    "watermarkIncrementalSettings": "INHERIT"
-  },
+  "id": "$replicate$dbo_products",
+  "name": "dbo_Products",
+  "type": "LANDING",
   "tableDef": {
     "name": "Products",
+    "dbSchema": "{{task.landing_1-8itf:null$_$dbo.schema}}",
+    "dbName": "{{task.landing_1-8itf:null$_$dbo.database}}",
     "columns": [
       {
         "name": "ProductID",
@@ -31,13 +17,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "INTEGER"
+          "originalTypeFull": ""
         },
         "id": "productid",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "ProductName",
@@ -49,13 +32,10 @@
           "length": 40,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "NVARCHAR(40)"
+          "originalTypeFull": ""
         },
         "id": "productname",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "SupplierID",
@@ -67,13 +47,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "INTEGER"
+          "originalTypeFull": ""
         },
         "id": "supplierid",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "CategoryID",
@@ -85,13 +62,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "INTEGER"
+          "originalTypeFull": ""
         },
         "id": "categoryid",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "QuantityPerUnit",
@@ -103,13 +77,10 @@
           "length": 20,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "NVARCHAR(20)"
+          "originalTypeFull": ""
         },
         "id": "quantityperunit",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "UnitPrice",
@@ -121,13 +92,10 @@
           "length": 0,
           "precision": 19,
           "scale": 4,
-          "originalTypeFull": "NUMBER(19,4)"
+          "originalTypeFull": ""
         },
         "id": "unitprice",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "UnitsInStock",
@@ -139,13 +107,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "SMALLINT"
+          "originalTypeFull": ""
         },
         "id": "unitsinstock",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "UnitsOnOrder",
@@ -157,13 +122,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "SMALLINT"
+          "originalTypeFull": ""
         },
         "id": "unitsonorder",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "ReorderLevel",
@@ -175,13 +137,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "SMALLINT"
+          "originalTypeFull": ""
         },
         "id": "reorderlevel",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       },
       {
         "name": "Discontinued",
@@ -193,13 +152,10 @@
           "length": 0,
           "precision": 0,
           "scale": 0,
-          "originalTypeFull": "BOOLEAN"
+          "originalTypeFull": ""
         },
         "id": "discontinued",
-        "flags": "NONE",
-        "properties": {
-          "documentMetadata": false
-        }
+        "flags": "NONE"
       }
     ],
     "secureQri": "",
