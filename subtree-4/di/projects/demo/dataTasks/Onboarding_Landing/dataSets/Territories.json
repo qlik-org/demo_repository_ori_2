@@ -1,0 +1,18 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$dbo_territories",
+      "schema": "dbo",
+      "name": "Territories",
+      "projectId": "${demo}",
+      "dataAppId": "onboarding_landing-hsdm"
+    }
+  ],
+  "id": "territories",
+  "name": "Territories",
+  "description": "",
+  "version": "1"
+}

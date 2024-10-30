@@ -1,0 +1,13 @@
+{
+  "id": "customers",
+  "name": "customers",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$external_data_provider$_customers$_$customers",
+      "name": "customers",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "landing-a525"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "sourceConnection": "{{task.landing-a525.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "customers",
+      "type": "TABLE",
+      "sourceTableId": "$external_data_provider$_customers$_$customers"
+    },
+    {
+      "name": "customers_addresses",
+      "type": "TABLE",
+      "sourceTableId": "$external_data_provider$_customers_addresses$_$customers"
+    },
+    {
+      "name": "orders",
+      "type": "TABLE",
+      "sourceTableId": "$external_data_provider$_orders$_$orders"
+    }
+  ]
+}

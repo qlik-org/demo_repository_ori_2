@@ -1,0 +1,18 @@
+{
+  "artifactsSettings": {
+    "liveViewsEnabled": false,
+    "historyEnabled": false,
+    "artifactsPrefix": ""
+  },
+  "artifactsLocation": {
+    "internalSchema": "{{task.dm1--3id.internalSchema}}",
+    "taskSchema": "{{task.dm1--3id.taskSchema}}",
+    "databaseName": "{{task.dm1--3id.databaseName}}"
+  },
+  "taskRuntime": {
+    "tableUpdateConcurrency": 10,
+    "warehouseSelection": {
+      "warehouseName": "{{task.dm1--3id.warehouseName}}"
+    }
+  }
+}

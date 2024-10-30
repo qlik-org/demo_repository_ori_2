@@ -1,0 +1,13 @@
+{
+  "id": "shippers-b-zp",
+  "name": "Shippers",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "shippers-hpaq",
+      "name": "Shippers",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-nzhg"
+    }
+  ]
+}

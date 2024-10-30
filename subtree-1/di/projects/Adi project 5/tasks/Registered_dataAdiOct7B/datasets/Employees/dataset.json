@@ -1,0 +1,13 @@
+{
+  "id": "employees",
+  "name": "Employees",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "datasetId": "$registered_data$landing_employees",
+      "name": "Employees",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_dataadioct7b-sl1d"
+    }
+  ]
+}

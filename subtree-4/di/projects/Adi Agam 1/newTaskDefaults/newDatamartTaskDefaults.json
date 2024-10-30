@@ -1,0 +1,11 @@
+{
+  "materialized": false,
+  "hasHistory": false,
+  "taskRuntime": {
+    "tableUpdateConcurrency": 10,
+    "warehouseSelection": {
+      "warehouseName": "DIS",
+      "selectionMethod": "DEFAULT"
+    }
+  }
+}
