@@ -30,15 +30,5 @@
   "task.onboarding_storage-nywh.internalSchema": "",
   "task.onboarding_storage-nywh.taskSchema": "",
   "task.onboarding_storage-nywh.warehouseName": "",
-  "task.onboarding_storage-nywh:null$_$%.schemaPattern": "",
-  "task.onboarding_2_landing-8isc.databaseName": "",
-  "task.onboarding_2_landing-8isc.taskSchema": "",
-  "task.onboarding_2_landing-8isc.sourceConnection": "",
-  "task.onboarding_2_landing-8isc:null$_$dbo.database": "",
-  "task.onboarding_2_landing-8isc:null$_$dbo.schema": "",
-  "task.onboarding_2_storage-8isd.databaseName": "",
-  "task.onboarding_2_storage-8isd.internalSchema": "",
-  "task.onboarding_2_storage-8isd.taskSchema": "",
-  "task.onboarding_2_storage-8isd.warehouseName": "",
-  "task.onboarding_2_storage-8isd:null$_$%.schemaPattern": ""
+  "task.onboarding_storage-nywh:null$_$%.schemaPattern": ""
 }
