@@ -49,5 +49,11 @@
   "task.transform-8isq.internalSchema": "",
   "task.transform-8isq.taskSchema": "",
   "task.transform-8isq.warehouseName": "",
-  "task.transform-8isq:null$_$%.schemaPattern": ""
+  "task.landing_1-8itf.databaseName": "",
+  "task.landing_1-8itf.taskSchema": "",
+  "task.landing_1-8itf.sourceConnection": "",
+  "task.landing_1-8itf:null$_$dbo.database": "",
+  "task.landing_1-8itf:null$_$dbo.schema": "",
+  "task.landing_1-8itf:AutoNorthwind$_$dbo.database": "",
+  "task.landing_1-8itf:AutoNorthwind$_$dbo.schema": ""
 }
