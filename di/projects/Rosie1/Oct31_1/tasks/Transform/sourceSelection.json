@@ -1,13 +1,5 @@
 {
-  "includePatterns": [
-    {
-      "sourceProject": "{{ref(project.current.projectId)}}",
-      "sourceTask": "onboarding_storage-nywr",
-      "tablePattern": "%",
-      "schemaPattern": "{{task.transform-8isq:null$_$%.schemaPattern}}",
-      "type": "TABLE"
-    }
-  ],
+  "includePatterns": [],
   "excludePatterns": [],
   "explicitlySelected": [
     {

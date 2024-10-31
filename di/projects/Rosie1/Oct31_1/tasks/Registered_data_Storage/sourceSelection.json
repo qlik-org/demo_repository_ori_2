@@ -2,9 +2,9 @@
   "includePatterns": [
     {
       "sourceProject": "{{ref(project.current.projectId)}}",
-      "sourceTask": "registered_data-1u-d",
+      "sourceTask": "registered_data-cyov",
       "tablePattern": "%",
-      "schemaPattern": "{{task.registered_data_storage-1u-e:null$_$%.schemaPattern}}",
+      "schemaPattern": "{{task.registered_data_storage-cyow:null$_$%.schemaPattern}}",
       "type": "TABLE"
     }
   ],
