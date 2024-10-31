@@ -4,8 +4,8 @@
   "type": "LANDING",
   "tableDef": {
     "name": "Products",
-    "dbSchema": "{{task.replication1-cooc:null$_$dbo.schema}}",
-    "dbName": "{{task.replication1-cooc:null$_$dbo.database}}",
+    "dbSchema": "{{task.lake_landing_1-_vxw:null$_$dbo.schema}}",
+    "dbName": "{{task.lake_landing_1-_vxw:null$_$dbo.database}}",
     "secureQri": "",
     "fullLoadOnly": false
   }

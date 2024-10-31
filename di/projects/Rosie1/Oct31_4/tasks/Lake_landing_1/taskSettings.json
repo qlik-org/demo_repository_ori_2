@@ -35,13 +35,13 @@
   "fullLoadOnly": true,
   "landingDwSettings": {
     "landingArtifactsLocation": {
-      "dataAssetSchema": "{{task.lake_landing-2or9.taskSchema}}",
-      "database": "{{task.lake_landing-2or9.databaseName}}"
+      "dataAssetSchema": "{{task.lake_landing_1-_vxw.taskSchema}}",
+      "database": "{{task.lake_landing_1-_vxw.databaseName}}"
     }
   },
   "landingStorageSettings": {
-    "folderLocationType": "SPECIFIC_FOLDER",
-    "specificFolder": "Oct14_1/NewFolder"
+    "folderLocationType": "DATA_ASSET_NAME",
+    "specificFolder": ""
   },
   "landingAppRuntime": {
     "tableLoadInParallel": 5,
@@ -63,7 +63,7 @@
   "changeDataPartitioning": {
     "mode": "PARTITION_EVERY",
     "partitionEvery": 1440,
-    "partitionBaseTime": "2024-10-14T00:00:00.000Z"
+    "partitionBaseTime": "2024-10-31T00:00:00.000Z"
   },
   "fileAttributes": {
     "general": {

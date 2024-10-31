@@ -7,9 +7,9 @@
       "datasetId": "$replicate$dbo_products",
       "name": "Products",
       "projectId": "{{ref(project.current.projectId)}}",
-      "taskId": "replication1-cooc",
-      "schema": "{{task.replication1-cooc:null$_$dbo.schema}}",
-      "database": "{{task.replication1-cooc:null$_$dbo.database}}"
+      "taskId": "lake_landing_1-_vxw",
+      "schema": "{{task.lake_landing_1-_vxw:null$_$dbo.schema}}",
+      "database": "{{task.lake_landing_1-_vxw:null$_$dbo.database}}"
     }
   ]
 }
