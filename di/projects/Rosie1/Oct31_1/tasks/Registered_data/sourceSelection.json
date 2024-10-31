@@ -3,39 +3,18 @@
   "excludePatterns": [],
   "explicitlySelected": [
     {
-      "database": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.database}}",
-      "name": "Customers",
-      "schema": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.schema}}",
+      "database": "{{task.registered_data-cyov:ROSIE$_$Oct31_1_b1_landing_1.database}}",
+      "name": "Categories",
+      "schema": "{{task.registered_data-cyov:ROSIE$_$Oct31_1_b1_landing_1.schema}}",
       "type": "TABLE",
-      "sourceTableId": "$registered_data$Oct31_1_landing_customers"
+      "sourceTableId": "$registered_data$Oct31_1_b1_landing_1_categories"
     },
     {
-      "database": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.database}}",
-      "name": "Employees",
-      "schema": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.schema}}",
+      "database": "{{task.registered_data-cyov:ROSIE$_$Oct31_1_b1_landing_1.database}}",
+      "name": "Products",
+      "schema": "{{task.registered_data-cyov:ROSIE$_$Oct31_1_b1_landing_1.schema}}",
       "type": "TABLE",
-      "sourceTableId": "$registered_data$Oct31_1_landing_employees"
-    },
-    {
-      "database": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.database}}",
-      "name": "Order Details",
-      "schema": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.schema}}",
-      "type": "TABLE",
-      "sourceTableId": "$registered_data$Oct31_1_landing_order_details"
-    },
-    {
-      "database": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.database}}",
-      "name": "Orders",
-      "schema": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.schema}}",
-      "type": "TABLE",
-      "sourceTableId": "$registered_data$Oct31_1_landing_orders"
-    },
-    {
-      "database": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.database}}",
-      "name": "Shippers",
-      "schema": "{{task.registered_data-1u-d:ROSIE$_$Oct31_1_landing.schema}}",
-      "type": "TABLE",
-      "sourceTableId": "$registered_data$Oct31_1_landing_shippers"
+      "sourceTableId": "$registered_data$Oct31_1_b1_landing_1_products"
     }
   ]
 }

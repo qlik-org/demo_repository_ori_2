@@ -1,8 +1,8 @@
 {
   "artifactsLocation": {
-    "internalSchema": "{{task.registered_data-1u-d.internalSchema}}",
-    "taskSchema": "{{task.registered_data-1u-d.taskSchema}}",
-    "databaseName": "{{task.registered_data-1u-d.databaseName}}"
+    "internalSchema": "{{task.registered_data-cyov.internalSchema}}",
+    "taskSchema": "{{task.registered_data-cyov.taskSchema}}",
+    "databaseName": "{{task.registered_data-cyov.databaseName}}"
   },
   "incrementalSettings": {
     "registeredType": "REPLICATE",
