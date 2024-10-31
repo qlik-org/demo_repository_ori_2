@@ -8,14 +8,14 @@
     "artifactsPrefix": ""
   },
   "artifactsLocation": {
-    "internalSchema": "{{task.data_mart-cyoj.internalSchema}}",
-    "taskSchema": "{{task.data_mart-cyoj.taskSchema}}",
-    "databaseName": "{{task.data_mart-cyoj.databaseName}}"
+    "internalSchema": "{{task.data_mart-cyo3.internalSchema}}",
+    "taskSchema": "{{task.data_mart-cyo3.taskSchema}}",
+    "databaseName": "{{task.data_mart-cyo3.databaseName}}"
   },
   "taskRuntime": {
     "tableUpdateConcurrency": 10,
     "warehouseSelection": {
-      "warehouseName": "{{task.data_mart-cyoj.warehouseName}}"
+      "warehouseName": "{{task.data_mart-cyo3.warehouseName}}"
     }
   }
 }

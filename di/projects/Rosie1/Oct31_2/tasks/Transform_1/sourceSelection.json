@@ -2,9 +2,9 @@
   "includePatterns": [
     {
       "sourceProject": "{{ref(project.current.projectId)}}",
-      "sourceTask": "transform_1-cyo0",
+      "sourceTask": "storage_1-1u-y",
       "tablePattern": "%",
-      "schemaPattern": "{{task.data_mart-cyo3:null$_$%.schemaPattern}}",
+      "schemaPattern": "{{task.transform_1-cyo0:null$_$%.schemaPattern}}",
       "type": "TABLE"
     }
   ],
