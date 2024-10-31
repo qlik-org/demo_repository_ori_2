@@ -4,23 +4,22 @@
     "sourceCdcFetchIntervalMinutes": 60,
     "initialLoadMode": "useCache"
   },
-  "replicateTaskId": "z58i-Q6qwyFUepJOqvIm8EISfpinNL8v",
   "proxySettings": {
     "proxyOdbc": false,
     "proxyStorage": false
   },
   "targetEndpoint": {
     "connectionId": "07b491ed-4451-44ad-9541-66d6347602e0",
-    "schema": "newSchema",
+    "schema": "",
     "controlTableSchema": ""
   },
   "taskSettings": {
     "fullLoad": true,
-    "applyChanges": true,
+    "applyChanges": false,
     "storeChanges": true
   },
   "fullLoadOptions": {
-    "tableExistsHandling": "TRUNCATE",
+    "tableExistsHandling": "DROP_AND_CREATE",
     "afterFullLoadCompleted": {
       "stopTask": {
         "beforeCachedChanges": false,
@@ -35,17 +34,17 @@
     }
   },
   "applyChangesOptions": {
-    "sourceTableDropped": false,
+    "sourceTableDropped": true,
     "sourceTableTruncated": true,
     "sourceTableAltered": true,
     "changeProcessingTuning": {
       "batchApplyEnabled": true,
-      "applyChangesMultipleTablesConcurrently": true,
-      "maxTables": 7
+      "applyChangesMultipleTablesConcurrently": false,
+      "maxTables": 5
     }
   },
   "storeChangesOptions": {
-    "ddlOptions": false,
+    "ddlOptions": true,
     "onUpdate": true,
     "changeTableCreation": "DROP_AND_CREATE",
     "suffix": "__ct",
@@ -53,7 +52,7 @@
     "changeDataPartitioning": {
       "mode": "PARTITION_OFF",
       "partitionEvery": 60,
-      "partitionBaseTime": "2024-10-14T09:17:07.989Z"
+      "partitionBaseTime": "2024-10-31T11:16:54.263Z"
     },
     "changeTableHeaderColumn": [
       {
@@ -100,8 +99,8 @@
   },
   "errorHandling": {
     "applyConflicts": {
-      "insertPolicy": "ERROR_POLICY_SUSPEND_TABLE",
-      "updatePolicy": "ERROR_POLICY_SUSPEND_TABLE",
+      "insertPolicy": "ERROR_POLICY_LOG_ERROR",
+      "updatePolicy": "ERROR_POLICY_LOG_ERROR",
       "deletePolicy": "ERROR_POLICY_IGNORE_RECORD",
       "escalationCount": {
         "isChecked": false,
@@ -111,7 +110,7 @@
     },
     "data": {
       "truncationPolicyErrors": "ERROR_POLICY_LOG_ERROR",
-      "policyErrors": "ERROR_POLICY_SUSPEND_TABLE",
+      "policyErrors": "ERROR_POLICY_LOG_ERROR",
       "escalationPolicy": "ERROR_POLICY_SUSPEND_TABLE",
       "escalationCount": {
         "isChecked": false,
@@ -140,7 +139,7 @@
   },
   "metadata": {
     "lobHandling": {
-      "maximumLobSize": 9,
+      "maximumLobSize": 8,
       "lobChunkSize": 64,
       "optimizeLobSizeEnabled": false,
       "optimizeLobSize": 1,
@@ -186,9 +185,9 @@
   },
   "changeProcessingTuning": {
     "batchApply": {
-      "applyIntervalMin": 2,
-      "applyIntervalMax": 33,
-      "forceApplyMemory": 505
+      "applyIntervalMin": 1,
+      "applyIntervalMax": 30,
+      "forceApplyMemory": 500
     },
     "batchSplitSize": {
       "isChecked": false,
@@ -198,11 +197,11 @@
       "cacheSize": 50,
       "transactionTotalMemory": {
         "isChecked": true,
-        "value": 1038
+        "value": 1024
       },
       "transactionDuration": {
-        "isChecked": true,
-        "value": 66
+        "isChecked": false,
+        "value": 60
       },
       "offloadTransactions": {
         "storeRecoveryData": false,
@@ -225,12 +224,12 @@
   "moreOptions": [],
   "fileAttributes": {
     "general": {
-      "maxFileSize": 111,
+      "maxFileSize": 100,
       "useCompression": true
     }
   },
   "catalogSettings": {
-    "publish": true,
+    "publish": false,
     "tags": []
   },
   "ddlHandlingPolicy": {

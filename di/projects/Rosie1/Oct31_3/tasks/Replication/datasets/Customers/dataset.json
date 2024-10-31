@@ -7,9 +7,9 @@
       "datasetId": "$replicate$dbo_customers",
       "name": "Customers",
       "projectId": "{{ref(project.current.projectId)}}",
-      "taskId": "lake_landing-2or9",
-      "schema": "{{task.lake_landing-2or9:null$_$dbo.schema}}",
-      "database": "{{task.lake_landing-2or9:null$_$dbo.database}}"
+      "taskId": "replication-a3ti",
+      "schema": "{{task.replication-a3ti:null$_$dbo.schema}}",
+      "database": "{{task.replication-a3ti:null$_$dbo.database}}"
     }
   ]
 }
