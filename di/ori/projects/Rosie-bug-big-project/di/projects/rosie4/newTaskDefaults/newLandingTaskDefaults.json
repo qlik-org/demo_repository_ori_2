@@ -1,0 +1,17 @@
+{
+  "taskRuntime": {
+    "tableLoadInParallel": 1,
+    "warehouseSelection": {
+      "warehouseName": "",
+      "selectionMethod": "DEFAULT"
+    }
+  },
+  "proxySettings": {
+    "proxyOdbc": false,
+    "proxyStorage": false
+  },
+  "databaseSelection": {
+    "databaseName": "Rosie4_L",
+    "selectionMethod": "CUSTOM"
+  }
+}

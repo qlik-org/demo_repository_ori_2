@@ -1,0 +1,13 @@
+{
+  "id": "categories-nzie",
+  "name": "Categories",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "categories-hpak",
+      "name": "Categories",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-nzhg"
+    }
+  ]
+}

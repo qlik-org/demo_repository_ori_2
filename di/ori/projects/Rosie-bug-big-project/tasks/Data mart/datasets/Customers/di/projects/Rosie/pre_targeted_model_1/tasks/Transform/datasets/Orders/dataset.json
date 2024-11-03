@@ -1,0 +1,13 @@
+{
+  "id": "orders-ismd",
+  "name": "Orders",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "orders-hpao",
+      "name": "Orders",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-nzhg"
+    }
+  ]
+}

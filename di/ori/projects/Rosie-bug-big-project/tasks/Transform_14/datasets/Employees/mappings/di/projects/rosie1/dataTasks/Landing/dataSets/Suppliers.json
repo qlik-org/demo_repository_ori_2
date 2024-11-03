@@ -1,0 +1,18 @@
+{
+  "type": "LANDING",
+  "virtualEntity": false,
+  "inputDataEntities": [
+    {
+      "type": "TABLE",
+      "entityId": "$replicate$dbo_suppliers",
+      "schema": "dbo",
+      "name": "Suppliers",
+      "projectId": "${rosie1}",
+      "dataAppId": "landing-rwie"
+    }
+  ],
+  "id": "suppliers",
+  "name": "Suppliers",
+  "description": "",
+  "version": "1"
+}
